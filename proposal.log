@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  4 JAN 2026 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  4 JAN 2026 15:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,7 +853,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `untouch/xx-sampul-proposal.aux'.
 
 (untouch/xx-sampul-proposal.tex
-<gambar/logo-poliwangi.png, id=305, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=297, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 18.
@@ -912,108 +912,118 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 \openout2 = `untouch/xx-daftar.aux'.
 
  (untouch/xx-daftar.tex (proposal.toc
-Overfull \hbox (6.0pt too wide) detected at line 20
+Overfull \hbox (6.0pt too wide) detected at line 18
 \OT1/ptm/m/n/12 2.1.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 21
+Overfull \hbox (6.0pt too wide) detected at line 19
 \OT1/ptm/m/n/12 2.1.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 22
+Overfull \hbox (6.0pt too wide) detected at line 20
 \OT1/ptm/m/n/12 2.1.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 23
+Overfull \hbox (6.0pt too wide) detected at line 21
 \OT1/ptm/m/n/12 2.1.4 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 25
+Overfull \hbox (6.0pt too wide) detected at line 23
 \OT1/ptm/m/n/12 2.2.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 26
+Overfull \hbox (6.0pt too wide) detected at line 24
 \OT1/ptm/m/n/12 2.2.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 27
+Overfull \hbox (6.0pt too wide) detected at line 25
 \OT1/ptm/m/n/12 2.2.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 28
+Overfull \hbox (6.0pt too wide) detected at line 26
 \OT1/ptm/m/n/12 2.2.4 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 29
+Overfull \hbox (6.0pt too wide) detected at line 27
 \OT1/ptm/m/n/12 2.2.5 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 31
+Overfull \hbox (6.0pt too wide) detected at line 29
 \OT1/ptm/m/n/12 2.3.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 32
+Overfull \hbox (6.0pt too wide) detected at line 30
 \OT1/ptm/m/n/12 2.3.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 33
+Overfull \hbox (6.0pt too wide) detected at line 31
 \OT1/ptm/m/n/12 2.3.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 35
+Overfull \hbox (6.0pt too wide) detected at line 33
 \OT1/ptm/m/n/12 2.4.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 36
+Overfull \hbox (6.0pt too wide) detected at line 34
 \OT1/ptm/m/n/12 2.4.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 37
+Overfull \hbox (6.0pt too wide) detected at line 35
 \OT1/ptm/m/n/12 2.4.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 38
+Overfull \hbox (6.0pt too wide) detected at line 36
 \OT1/ptm/m/n/12 2.4.4 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 40
+Overfull \hbox (6.0pt too wide) detected at line 38
 \OT1/ptm/m/n/12 2.5.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 41
+Overfull \hbox (6.0pt too wide) detected at line 39
 \OT1/ptm/m/n/12 2.5.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 42
+Overfull \hbox (6.0pt too wide) detected at line 40
 \OT1/ptm/m/n/12 2.5.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 43
+Overfull \hbox (6.0pt too wide) detected at line 41
 \OT1/ptm/m/n/12 2.5.4 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 45
+Overfull \hbox (6.0pt too wide) detected at line 43
 \OT1/ptm/m/n/12 2.6.1 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 44
+\OT1/ptm/m/n/12 2.6.2 
+ []
+
+
+Overfull \hbox (6.0pt too wide) detected at line 45
+\OT1/ptm/m/n/12 2.6.3 
  []
 
 [5
@@ -1022,117 +1032,107 @@ Overfull \hbox (6.0pt too wide) detected at line 45
 
 
 ]
-Overfull \hbox (6.0pt too wide) detected at line 46
-\OT1/ptm/m/n/12 2.6.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 47
-\OT1/ptm/m/n/12 2.6.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 50
+Overfull \hbox (6.0pt too wide) detected at line 48
 \OT1/ptm/m/n/12 3.1.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 51
+Overfull \hbox (6.0pt too wide) detected at line 49
 \OT1/ptm/m/n/12 3.1.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 52
+Overfull \hbox (6.0pt too wide) detected at line 50
 \OT1/ptm/m/n/12 3.1.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 53
+Overfull \hbox (6.0pt too wide) detected at line 51
 \OT1/ptm/m/n/12 3.1.4 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 54
+Overfull \hbox (6.0pt too wide) detected at line 52
 \OT1/ptm/m/n/12 3.1.5 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 55
+Overfull \hbox (6.0pt too wide) detected at line 53
 \OT1/ptm/m/n/12 3.1.6 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 56
+Overfull \hbox (6.0pt too wide) detected at line 54
 \OT1/ptm/m/n/12 3.1.7 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 58
+Overfull \hbox (6.0pt too wide) detected at line 56
 \OT1/ptm/m/n/12 3.2.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 59
+Overfull \hbox (6.0pt too wide) detected at line 57
 \OT1/ptm/m/n/12 3.2.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 60
+Overfull \hbox (6.0pt too wide) detected at line 58
 \OT1/ptm/m/n/12 3.2.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 62
+Overfull \hbox (6.0pt too wide) detected at line 60
 \OT1/ptm/m/n/12 3.3.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 63
+Overfull \hbox (6.0pt too wide) detected at line 61
 \OT1/ptm/m/n/12 3.3.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 64
+Overfull \hbox (6.0pt too wide) detected at line 62
 \OT1/ptm/m/n/12 3.3.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 66
+Overfull \hbox (6.0pt too wide) detected at line 64
 \OT1/ptm/m/n/12 3.4.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 67
+Overfull \hbox (6.0pt too wide) detected at line 65
 \OT1/ptm/m/n/12 3.4.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 68
+Overfull \hbox (6.0pt too wide) detected at line 66
 \OT1/ptm/m/n/12 3.4.3 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 70
+Overfull \hbox (6.0pt too wide) detected at line 68
 \OT1/ptm/m/n/12 3.5.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 71
+Overfull \hbox (6.0pt too wide) detected at line 69
 \OT1/ptm/m/n/12 3.5.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 73
+Overfull \hbox (6.0pt too wide) detected at line 71
 \OT1/ptm/m/n/12 3.6.1 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 74
+Overfull \hbox (6.0pt too wide) detected at line 72
 \OT1/ptm/m/n/12 3.6.2 
  []
 
 
-Overfull \hbox (6.0pt too wide) detected at line 75
+Overfull \hbox (6.0pt too wide) detected at line 73
 \OT1/ptm/m/n/12 3.6.3 
  []
 
@@ -1163,33 +1163,33 @@ Bab 1.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.19 
+l.16 
       [1
 
 
 
 
-]) [2] [3]
+] [2] [3]) [4]
 \openout2 = `b2-bab2.aux'.
 
  (b2-bab2.tex
 Bab 2.
-[4
+[5
 
 
 
 
-] [5] [6] [7]) [8]
+] [6] [7] [8]) [9]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex
 Bab 3.
-[9
+[10
 
 
 
 
-] [10] [11]) [12] (untouch/xx-daftarpustaka.tex (proposal.bbl))
+] [11] [12]) [13] (untouch/xx-daftarpustaka.tex (proposal.bbl))
 
 Package caption Warning: Unused \captionsetup[figure] on input line 63.
 See the caption package documentation for explanation.
@@ -1198,7 +1198,7 @@ See the caption package documentation for explanation.
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 154.
 See the caption package documentation for explanation.
 
-[13
+[14
 
 
 
@@ -1209,20 +1209,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 4C082A18B841E733A6EC23597559E18F;16272.
+(rerunfilecheck)             Checksum: 940D2D27998DB5E6FC22C7A10D03E18C;16009.
  ) 
 Here is how much of TeX's memory you used:
- 39337 strings out of 474486
- 891776 string characters out of 5753569
+ 39338 strings out of 474486
+ 891461 string characters out of 5753569
  1942542 words of memory out of 5000000
- 60834 multiletter control sequences out of 15000+600000
+ 60825 multiletter control sequences out of 15000+600000
  577706 words of font info for 69 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,8n,95p,961b,996s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,8n,95p,961b,990s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (23 pages, 412237 bytes).
+Output written on proposal.pdf (24 pages, 415839 bytes).
 PDF statistics:
- 532 PDF objects out of 1000 (max. 8388607)
- 108 named destinations out of 1000 (max. 500000)
- 618 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 550 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 602 words of extra memory for PDF output out of 10000 (max. 10000000)
 

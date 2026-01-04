@@ -6,22 +6,90 @@
 \chapter[PENDAHULUAN]{\\ PENDAHULUAN}
 
 \section{Latar Belakang}
-Bagian ini menjelaskan alasan dan motivasi di balik pengembangan proyek ini. Proyek ini diinisiasi untuk mengatasi kebutuhan atau permasalahan tertentu yang timbul dalam bidang teknologi, industri, atau aplikasi sehari-hari. Melalui identifikasi kebutuhan ini, diperoleh wawasan tentang bagaimana proyek dapat memberikan solusi yang efektif dan efisien. Latar belakang ini juga menguraikan pentingnya topik proyek dalam perkembangan teknologi terkini, serta bagaimana penerapan teknologi atau metode yang diusulkan dapat membawa nilai tambah. Selain itu, bagian ini memberikan gambaran singkat mengenai situasi atau tren teknologi saat ini yang mempengaruhi pengembangan proyek.
+Usaha Mikro, Kecil, dan Menengah (UMKM) merupakan salah satu pilar utama dalam perekonomian Indonesia. Berdasarkan beberapa studi nasional, UMKM berkontribusi besar terhadap Produk Domestik Bruto (PDB) serta memiliki peran penting dalam penyerapan tenaga kerja. Namun, meskipun kontribusinya besar, tingkat literasi digital UMKM di Indonesia masih tergolong rendah, terutama dalam pemanfaatan teknologi informasi untuk analisis pasar dan pengambilan keputusan berbasis data. Penelitian oleh \citep{Irianto2022} menyebutkan bahwa banyak UMKM belum mampu memanfaatkan teknologi digital secara optimal karena keterbatasan pengetahuan, akses, dan kemampuan mengelola data.
 
-\section{Rumusan Masalah}
-Rumusan masalah adalah langkah penting yang merangkum permasalahan spesifik atau kebutuhan yang menjadi dasar pengembangan proyek. Pada bagian ini, dijelaskan permasalahan utama yang dihadapi, seperti keterbatasan pada sistem atau perangkat yang sudah ada, atau kebutuhan baru yang belum terpenuhi oleh teknologi saat ini. Identifikasi masalah juga mencakup tantangan teknis, fungsional, atau ekonomi yang menjadi penghambat dan bagaimana proyek ini diharapkan dapat menjawab permasalahan tersebut. Fokusnya adalah memberikan pemahaman yang jelas mengenai alasan pentingnya mengembangkan proyek ini sebagai solusi yang dibutuhkan.
+Di era digital saat ini, perilaku konsumen telah berubah secara signifikan. Media sosial seperti Instagram, TikTok, dan Facebook tidak hanya menjadi saluran pemasaran, tetapi juga menjadi ruang interaksi antara konsumen dan pelaku usaha. Studi oleh \citep{Trulline2021} menunjukkan bahwa UMKM semakin bergantung pada media sosial untuk mempromosikan produk, membangun reputasi, dan memahami minat pasar. Komentar konsumen pada postingan media sosial mencerminkan persepsi publik terhadap produk atau layanan UMKM, sehingga dapat dimanfaatkan sebagai indikator kepuasan dan reputasi merek.
+
+Namun, data komentar media sosial bersifat tidak terstruktur, jumlahnya besar, dan berubah secara dinamis, sehingga sulit dianalisis tanpa bantuan teknologi. Sejalan dengan \citep{Joseph2024}, Sentiment Analysis pada media sosial merupakan bidang penelitian yang berkembang pesat dan melibatkan penggunaan Natural Language Processing (NLP), text analysis, dan computational linguistics untuk mengidentifikasi serta mengekstraksi informasi subjektif dari data teks. Pendekatan NLP tersebut memungkinkan komentar tidak terstruktur diproses menjadi kategori sentimen yang dapat diinterpretasikan, baik positif, negatif, maupun netral. Dengan demikian, hasil analisis sentimen dari proses NLP dapat disajikan dalam bentuk dashboard interaktif agar UMKM dapat memahami tren sentimen, isu yang sering muncul, serta persepsi pelanggan secara lebih cepat dan intuitif.
+
+Akan tetapi, pembangunan dashboard bukan hanya soal menampilkan data, melainkan bagaimana mengelola alur data di sisi frontend agar akurat, efisien, dan konsisten. Dashboard analitik biasanya memuat berbagai grafik, tabel, filter, dan indikator yang semuanya bergantung pada data API. Jika data dikelola secara tradisional misalnya dengan mengkonsumsi api langsung di setiap komponen React—akan muncul berbagai permasalahan teknis, antara lain: terjadinya permintaan API berulang, inkonsistensi data antar-komponen, waktu muat (loading time) yang lama, beban render tinggi karena komponen terus memperbarui data, sulit melakukan sinkronisasi state dan memelihara kode dalam jangka panjang.
+
+Pada aplikasi data-driven seperti dashboard sentimen, masalah di atas dapat mengakibatkan pengalaman pengguna yang buruk dan data yang tidak akurat. Oleh karena itu, dibutuhkan pendekatan arsitektur modern yang mampu memisahkan logika pengelolaan data dari tampilan (UI), sekaligus memastikan setiap komponen menerima data yang konsisten, tersinkronisasi, dan tidak melakukan permintaan API berlebihan.
+
+Salah satu solusi modern untuk tantangan tersebut adalah TanStack Query (sebelumnya React Query), sebuah pustaka server state management yang dirancang untuk menangani data asinkron dari API secara efisien. TanStack Query menyediakan fitur-fitur penting seperti caching otomatis, background refetching, query deduplication, stale-time management, prefetching, optimistic update, dan lazy-fetching berbasis kondisi melalui opsi enabled. Dengan mekanisme tersebut, frontend dapat mengelola data API seperti sebuah data layer yang mandiri, terstruktur, dan optimal.
+
+Penelitian terbaru menunjukkan bahwa TanStack Query mampu mengurangi jumlah request API yang tidak diperlukan, meningkatkan performa aplikasi, serta menjaga konsistensi data antar-komponen sehingga sangat cocok diterapkan pada aplikasi berskala besar seperti dashboard analitik. Studi Comparing Performance of Redux, MobX, and React Query \citep{Luz2025} menunjukkan bahwa React Query unggul dalam manajemen server state dibandingkan library state management lainnya, terutama dalam aplikasi yang memuat data dalam jumlah besar. Sementara itu, penelitian React Query and Lazy Loading Performance Optimization Best Practices \citep{Micheal2025} menjelaskan bahwa kombinasi caching, lazy loading, dan query control dapat meningkatkan performa frontend secara signifikan.
+
+Berdasarkan kebutuhan UMKM akan sistem pemantauan opini publik serta tantangan teknis dalam pengembangan dashboard analitik, penerapan arsitektur Client Data Layer menggunakan TanStack Query menjadi sangat relevan. Dengan pendekatan ini, pengembangan frontend dapat menjadi lebih efisien, terstruktur, dan mampu menampilkan data sentimen secara cepat, akurat, dan responsif. Oleh karena itu, penelitian ini berfokus pada penerapan arsitektur tersebut dalam pengembangan Dashboard Analisis Sentimen UMKM sebagai upaya mendukung digitalisasi UMKM dalam memahami persepsi konsumen dan meningkatkan daya saing.
+
+\section{Perumusan Masalah}
+\begin{packed_enum}
+  \item Bagaimana menerapkan arsitektur Client Data Layer menggunakan TanStack Query pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM?
+  \item Bagaimana penggunaan arsitektur Client Data Layer menggunakan TanStack Query dapat meningkatkan performa frontend?
+\end{packed_enum}
+
 
 \section{Tujuan Proyek}
-Tujuan proyek menyatakan secara spesifik hasil atau capaian yang diinginkan dari pengembangan proyek ini. Bagian ini dirancang untuk memastikan bahwa proyek memiliki sasaran yang jelas dan terukur. Tujuan tersebut dirumuskan berdasarkan masalah yang telah diidentifikasi dan mencakup pencapaian tertentu, seperti peningkatan kinerja sistem, efisiensi, atau kemudahan penggunaan yang diharapkan. Selain itu, tujuan proyek dapat berupa pengembangan prototipe, penerapan teknologi tertentu, atau pencapaian fungsionalitas baru yang belum ada. Penjabaran tujuan yang jelas membantu menjaga fokus proyek dan memberikan arah yang tepat dalam setiap tahapan pengembangan.
+\begin{packed_enum}
+  \item Menerapkan arsitektur Client Data Layer berbasis TanStack Query pada sebuah kasus nyata, yaitu Dashboard Analisis Sentimen UMKM.
+  \item Mengevaluasi dampak penggunaan TanStack Query terhadap performa frontend pada studi kasus tersebut. 
+  \item Menghasilkan dashboard analisis sentimen yang cepat, responsif, dan efektif digunakan pada konteks UMKM.
+\end{packed_enum}
 
-\section{Manfaat Proyek}
-Manfaat proyek menguraikan dampak positif yang diharapkan dari hasil proyek ini bagi pengguna, industri, atau masyarakat secara umum. Manfaat ini mencakup berbagai aspek, seperti kontribusi terhadap peningkatan produktivitas, pengurangan biaya, peningkatan kualitas, atau kemudahan dalam penggunaan teknologi. Selain manfaat langsung, proyek ini juga diharapkan memiliki dampak jangka panjang yang bermanfaat, seperti mendorong inovasi di bidang terkait atau membuka peluang baru untuk pengembangan lebih lanjut. Dengan menjelaskan manfaat proyek, pembaca dapat memahami nilai tambah yang dihadirkan oleh proyek ini.
+\indent Dari tujuan tujuan tersebut, penelitian ini memiliki tujuan utama yaitu menerapkan arsitektur Client Data Layer berbasis TanStack Query pada sebuah kasus pengembangan Dashboard Analisis Sentimen UMKM, guna meningkatkan kualitas pengelolaan data pada sisi frontend. Penerapan arsitektur ini difokuskan pada pemanfaatan mekanisme caching, pengendalian data fetching, dan sinkronisasi data antar-komponen agar data yang ditampilkan lebih konsisten. Selain itu, penelitian ini bertujuan untuk mengevaluasi dampak penggunaan TanStack Query terhadap performa frontend dashboard, khususnya dari aspek waktu muat, jumlah permintaan API, dan responsivitas tampilan. Melalui penerapan tersebut, diharapkan dapat dihasilkan dashboard analisis sentimen yang cepat, responsif, serta efektif digunakan oleh UMKM dalam memahami persepsi konsumen berbasis data.
+
+\section{Manfaat Tugas Akhir}
+
+Manfaat Teoritis
+
+\begin{packed_enum}
+  \item Penelitian ini diharapkan dapat menambah literatur mengenai
+  penerapan TanStack Query dalam arsitektur data layer pada studi kasus
+  aplikasi dashboard.
+\end{packed_enum}
+
+Manfaat Praktis
+
+\begin{packed_enum}
+  \item \textbf{Manfaat bagi UMKM}
+
+  Penelitian ini menghasilkan sebuah dashboard analisis sentimen yang dapat
+  membantu UMKM dalam memahami komentar dan sentimen publik terhadap produk
+  mereka secara lebih cepat. Dengan informasi tersebut, UMKM diharapkan
+  memperoleh wawasan mengenai persepsi konsumen sebagai dasar pengambilan
+  keputusan bisnis.
+
+  \item \textbf{Manfaat bagi Pengembang}
+
+  Penelitian ini memberikan studi kasus penerapan arsitektur Client Data
+  Layer menggunakan TanStack Query pada aplikasi React. Hasil penelitian
+  ini dapat dijadikan acuan oleh pengembang frontend dalam merancang
+  pengelolaan data yang lebih konsisten dan terstruktur.
+
+  \item \textbf{Manfaat bagi Akademisi}
+
+  Penelitian ini menyediakan studi kasus yang dapat dijadikan referensi
+  bagi akademisi maupun mahasiswa dalam penelitian sejenis, khususnya yang
+  membahas arsitektur frontend, pengelolaan server state, dan pengembangan
+  dashboard analitik.
+\end{packed_enum}
+
 
 \section{Batasan Proyek}
-Batasan proyek mengidentifikasi cakupan dan batasan ruang lingkup pengembangan sistem atau perangkat yang dirancang. Bagian ini mencakup aspek-aspek yang akan menjadi fokus utama dalam pengembangan serta aspek yang akan dikecualikan dari lingkup proyek. Penjelasan batasan ini penting agar proyek tetap terarah dan tidak meluas ke aspek-aspek yang berada di luar tujuan awal. Batasan proyek juga mencakup keterbatasan teknis, waktu, atau sumber daya yang mempengaruhi desain dan implementasi sistem. Dengan menetapkan batasan, proyek ini dapat lebih terfokus dan efisien dalam pencapaiannya.
+Batasan proyek ditetapkan agar penelitian tetap terfokus pada tujuan yang telah dirumuskan. Adapun batasan proyek dalam Tugas Akhir ini adalah sebagai berikut:
 
-\section{Keaslian Gagasan}
-Keaslian gagasan bertujuan untuk menekankan inovasi atau kontribusi unik yang ditawarkan oleh proyek ini. Bagian ini menjelaskan bagaimana proyek ini menawarkan pendekatan yang berbeda atau peningkatan dibandingkan dengan metode atau perangkat yang sudah ada. Keaslian gagasan dapat diperlihatkan melalui perbandingan dengan proyek atau produk serupa, menunjukkan perbedaan signifikan atau keunggulan yang dihadirkan oleh solusi yang diusulkan. Misalnya, peningkatan kinerja, efisiensi, atau kemudahan penggunaan yang dihasilkan dari metode atau pendekatan baru. Selain itu, bagian ini juga bisa mencakup penggunaan teknologi atau desain yang belum banyak diterapkan dalam konteks yang sama. Penekanan pada keaslian gagasan membantu menunjukkan bahwa proyek ini tidak hanya mengikuti pola yang sudah ada, tetapi juga menghadirkan sesuatu yang baru dan relevan.
 
-\section{Sistematika Penulisan}
-Sistematika penulisan memberikan panduan mengenai struktur dari keseluruhan laporan proyek ini, sehingga memudahkan pembaca dalam memahami alur isi laporan dari setiap bab. Bagian ini menjelaskan isi dari setiap bab secara singkat, mulai dari latar belakang hingga kesimpulan dan rekomendasi. Misalnya, BAB I membahas pendahuluan dan dasar pengembangan proyek, BAB II menguraikan tinjauan pustaka dan landasan teori, dan seterusnya. Dengan memberikan sistematika penulisan, pembaca dapat memahami bagaimana laporan ini disusun secara keseluruhan dan bagaimana setiap bab saling berkaitan dalam mencapai tujuan akhir proyek.
+\begin{packed_enum}
+  \item Studi kasus yang digunakan adalah Dashboard Analisis Sentimen UMKM yang dikembangkan sebagai bagian dari proyek tim, dengan fokus penelitian pada perancangan dan implementasi arsitektur frontend.
+  \item Ruang lingkup penelitian hanya mencakup sisi frontend aplikasi, khususnya penerapan arsitektur Client Data Layer menggunakan TanStack Query dalam pengelolaan data API.
+  \item Proses analisis sentimen, termasuk pengumpulan data media sosial, preprocessing teks, dan penentuan kategori sentimen, tidak dibahas dalam penelitian ini. Data yang digunakan diperoleh melalui API dari backend dan extenstion browser.
+  \item Penelitian ini tidak mengevaluasi akurasi atau kualitas hasil analisis sentimen, melainkan hanya memanfaatkan hasil tersebut sebagai sumber data untuk dashboard.
+  \item Framework frontend yang digunakan adalah React dengan pustaka TanStack Query, tanpa melakukan perbandingan dengan framework atau library lain seperti Vue, Angular, Redux, atau MobX.
+  \item Evaluasi performa aplikasi hanya dilakukan pada konteks studi kasus dashboard yang dikembangkan, dengan fokus pada waktu muat data, jumlah permintaan API, mekanisme caching, dan konsistensi data antar-komponen.
+  \item Penelitian ini tidak membahas aspek optimasi backend, keamanan aplikasi, load testing, maupun pengujian usability secara mendalam
+\end{packed_enum}
+% \section{Keaslian Gagasan}
+% Keaslian gagasan bertujuan untuk menekankan inovasi atau kontribusi unik yang ditawarkan oleh proyek ini. Bagian ini menjelaskan bagaimana proyek ini menawarkan pendekatan yang berbeda atau peningkatan dibandingkan dengan metode atau perangkat yang sudah ada. Keaslian gagasan dapat diperlihatkan melalui perbandingan dengan proyek atau produk serupa, menunjukkan perbedaan signifikan atau keunggulan yang dihadirkan oleh solusi yang diusulkan. Misalnya, peningkatan kinerja, efisiensi, atau kemudahan penggunaan yang dihasilkan dari metode atau pendekatan baru. Selain itu, bagian ini juga bisa mencakup penggunaan teknologi atau desain yang belum banyak diterapkan dalam konteks yang sama. Penekanan pada keaslian gagasan membantu menunjukkan bahwa proyek ini tidak hanya mengikuti pola yang sudah ada, tetapi juga menghadirkan sesuatu yang baru dan relevan.
+
+% \section{Sistematika Penulisan}
+% Sistematika penulisan memberikan panduan mengenai struktur dari keseluruhan laporan proyek ini, sehingga memudahkan pembaca dalam memahami alur isi laporan dari setiap bab. Bagian ini menjelaskan isi dari setiap bab secara singkat, mulai dari latar belakang hingga kesimpulan dan rekomendasi. Misalnya, BAB I membahas pendahuluan dan dasar pengembangan proyek, BAB II menguraikan tinjauan pustaka dan landasan teori, dan seterusnya. Dengan memberikan sistematika penulisan, pembaca dapat memahami bagaimana laporan ini disusun secara keseluruhan dan bagaimana setiap bab saling berkaitan dalam mencapai tujuan akhir proyek.
