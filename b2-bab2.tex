@@ -122,3 +122,68 @@ Lebih lanjut, penelitian tersebut menegaskan bahwa performa aplikasi web tidak d
 Dalam penelitian ini, REST API diposisikan sebagai penyedia data hasil analisis sentimen yang diproses di sisi backend. Data tersebut selanjutnya dikelola pada sisi frontend melalui arsitektur Client Data Layer sebelum ditampilkan dalam bentuk visualisasi pada dashboard analitik. Dengan pemisahan peran ini, REST API berfungsi sebagai sumber data, sementara pengelolaan performa, caching, dan sinkronisasi data dilakukan sepenuhnya di sisi frontend untuk mendukung penyajian informasi yang responsif dan konsisten.
 
 \section{Penelitian Terkait}
+
+Berikut adalah tabel perbandingan penelitian terkait yang relevan dengan pengembangan penerapan arsitektur Client Data Layer menggunakan TanStack Query pada dashboard sentiment analysis
+
+
+\begin{longtable}{|c|p{2.8cm}|p{2.5cm}|p{4cm}|p{4.5cm}|}
+\caption{Tabel Perbandingan Penelitian Terkait}
+\label{tab:perbandingan_penelitian} \\
+\hline
+\textbf{No} &
+\textbf{Peneliti} &
+\textbf{Teknologi} &
+\textbf{Judul} &
+\textbf{Fitur} \\
+\hline
+\endfirsthead
+
+\hline
+\textbf{No} &
+\textbf{Peneliti} &
+\textbf{Teknologi} &
+\textbf{Judul} &
+\textbf{Fitur} \\
+\hline
+\endhead
+
+\hline
+\endfoot
+
+1 &
+Fajarini, Sri Dwi; Kurniawati, Juliana; Yuliani, Fitria (2025) &
+NLP, Machine Learning (SVM, Random Forest, VADER) &
+\textit{Social Media Sentiment Analysis as a New Tool for Predicting Market Trends and Consumer Behaviour} &
+Analisis sentimen media sosial untuk mengidentifikasi pola opini publik dan memprediksi perilaku konsumen serta tren pasar. \\
+\hline
+
+2 &
+Shrutika Rathore; Rahul Nawkhare; Navin Sharma; Nitin Chaudhary; Saurabh Chakole; Bhaskar Vishwakrama (2025) &
+Dashboard analitik, visualisasi data, business intelligence &
+\textit{Effective Data Visualization Techniques for Business Decision-Makers} &
+Penyajian data bisnis melalui dashboard analitik untuk meningkatkan efisiensi pengambilan keputusan dan perencanaan strategis. \\
+\hline
+
+3 &
+Micheal, Author Dave (2024) &
+React, React Query (TanStack Query), lazy loading, caching &
+\textit{React Query and Lazy Loading: Performance Optimization Best Practices} &
+Optimasi performa aplikasi frontend melalui pengelolaan data asinkron, caching, dan lazy loading untuk mengurangi permintaan API berulang. \\
+\hline
+
+\end{longtable}
+
+
+\section{Analisa Gap Penelitian}
+
+\subsection{Gap Penelitian 1}
+
+Penelitian ini berfokus pada pemanfaatan analisis sentimen media sosial menggunakan pendekatan Natural Language Processing (NLP) dan machine learning untuk memprediksi perilaku konsumen dan tren pasar. Namun demikian, penelitian ini belum membahas bagaimana hasil analisis sentimen tersebut dikelola dan disajikan pada sisi frontend, khususnya dalam bentuk dashboard analitik. Aspek arsitektur pengelolaan data frontend, seperti mekanisme pengambilan data dari API, caching, serta sinkronisasi data antar-komponen, belum menjadi fokus dalam penelitian ini.
+
+\subsection{Gap Penelitian 2}
+
+Penelitian ini menekankan pada peran dashboard dan teknik visualisasi data dalam meningkatkan efektivitas pengambilan keputusan bisnis. Fokus utama penelitian berada pada desain visualisasi, jenis grafik, serta manfaat dashboard analitik bagi pengambil keputusan. Namun, penelitian ini belum mengkaji bagaimana data yang ditampilkan pada dashboard dikelola di sisi frontend, khususnya terkait arsitektur pengambilan data, pengelolaan server state, serta mekanisme caching dan konsistensi data pada aplikasi frontend modern.
+
+\subsection{Gap Penelitian 3}
+
+Penelitian ini membahas penggunaan React Query dalam pengelolaan data asinkron pada aplikasi React, serta pemanfaatan lazy loading dan caching untuk meningkatkan performa aplikasi frontend. Meskipun penelitian ini menunjukkan bahwa React Query efektif dalam mengurangi pemanggilan API berulang dan meningkatkan waktu respons aplikasi, konteks penerapannya masih bersifat umum. Penelitian ini belum membahas penerapan React Query sebagai bagian dari arsitektur Client Data Layer pada aplikasi dashboard analisis sentimen, serta belum mengaitkan pengelolaan server state dengan kebutuhan penyajian data analitik pada konteks UMKM.
