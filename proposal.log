@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  5 JAN 2026 00:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  5 JAN 2026 01:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,7 +853,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `untouch/xx-sampul-proposal.aux'.
 
 (untouch/xx-sampul-proposal.tex
-<gambar/logo-poliwangi.png, id=233, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=125, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 18.
@@ -911,183 +911,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 \openout2 = `untouch/xx-daftar.aux'.
 
- (untouch/xx-daftar.tex (proposal.toc
-Overfull \hbox (6.0pt too wide) detected at line 18
-\OT1/ptm/m/n/12 2.1.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 19
-\OT1/ptm/m/n/12 2.1.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 20
-\OT1/ptm/m/n/12 2.1.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 21
-\OT1/ptm/m/n/12 2.1.4 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 22
-\OT1/ptm/m/n/12 2.1.5 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 23
-\OT1/ptm/m/n/12 2.1.6 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 24
-\OT1/ptm/m/n/12 2.1.7 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 27
-\OT1/ptm/m/n/12 2.3.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 28
-\OT1/ptm/m/n/12 2.3.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 29
-\OT1/ptm/m/n/12 2.3.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 32
-\OT1/ptm/m/n/12 3.1.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 33
-\OT1/ptm/m/n/12 3.1.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 34
-\OT1/ptm/m/n/12 3.1.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 35
-\OT1/ptm/m/n/12 3.1.4 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 36
-\OT1/ptm/m/n/12 3.1.5 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 37
-\OT1/ptm/m/n/12 3.1.6 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 38
-\OT1/ptm/m/n/12 3.1.7 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 40
-\OT1/ptm/m/n/12 3.2.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 41
-\OT1/ptm/m/n/12 3.2.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 42
-\OT1/ptm/m/n/12 3.2.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 44
-\OT1/ptm/m/n/12 3.3.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 45
-\OT1/ptm/m/n/12 3.3.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 46
-\OT1/ptm/m/n/12 3.3.3 
- []
-
-[5
-
-
-
-
-]
-Overfull \hbox (6.0pt too wide) detected at line 48
-\OT1/ptm/m/n/12 3.4.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 49
-\OT1/ptm/m/n/12 3.4.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 50
-\OT1/ptm/m/n/12 3.4.3 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 52
-\OT1/ptm/m/n/12 3.5.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 53
-\OT1/ptm/m/n/12 3.5.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 55
-\OT1/ptm/m/n/12 3.6.1 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 56
-\OT1/ptm/m/n/12 3.6.2 
- []
-
-
-Overfull \hbox (6.0pt too wide) detected at line 57
-\OT1/ptm/m/n/12 3.6.3 
- []
-
-)
+ (untouch/xx-daftar.tex (proposal.toc)
 \tf@toc=\write5
 \openout5 = `proposal.toc'.
 
- (a6-daftarsingkatan.tex [6]) [7
+ (a6-daftarsingkatan.tex [5
+
+
+
+
+]) [6
 
 ] (proposal.lof)
 \tf@lof=\write6
 \openout6 = `proposal.lof'.
 
- [8
+ [7
 
 ] (proposal.lot)
 \tf@lot=\write7
 \openout7 = `proposal.lot'.
 
-) [9
+) [8
 
 ]
 \openout2 = `b1-bab1.aux'.
@@ -1115,7 +960,7 @@ Bab 2.
 
 
 ] [6] [7] [8]
-<gambar/client-data-layer-paradigm.png, id=425, 3332.45pt x 3097.5725pt>
+<gambar/client-data-layer-paradigm.png, id=286, 3332.45pt x 3097.5725pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 65.
@@ -1145,17 +990,17 @@ Overfull \hbox (14.46793pt too wide) in alignment at lines 151--174
 
  (b3-bab3.tex
 Bab 3.
-[17
+) [17
 
 
 
 
-] [18] [19]) [20] (untouch/xx-daftarpustaka.tex (proposal.bbl))
+] (untouch/xx-daftarpustaka.tex (proposal.bbl))
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 154.
 See the caption package documentation for explanation.
 
-[21
+[18
 
 
 
@@ -1166,20 +1011,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 5E23B363A6CEC6C3833B110662835284;10374.
+(rerunfilecheck)             Checksum: 554D2EFC8A2BE51F20FAD039623D6C8A;4492.
  ) 
 Here is how much of TeX's memory you used:
- 39379 strings out of 474486
- 892377 string characters out of 5753569
- 1942542 words of memory out of 5000000
- 60858 multiletter control sequences out of 15000+600000
+ 39321 strings out of 474486
+ 891491 string characters out of 5753569
+ 1940542 words of memory out of 5000000
+ 60831 multiletter control sequences out of 15000+600000
  580917 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,9n,95p,961b,894s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,9n,95p,961b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (31 pages, 624607 bytes).
+Output written on proposal.pdf (27 pages, 595937 bytes).
 PDF statistics:
- 540 PDF objects out of 1000 (max. 8388607)
- 124 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 382 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
+ 263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
