@@ -14,61 +14,41 @@
 \contentsline {section}{\numberline {1.4}Manfaat Tugas Akhir}{3}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Batasan Proyek}{4}{section.1.5}%
 \contentsline {chapter}{\numberline {2}TINJAUAN PUSTAKA}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Teori Dasar Komponen Elektronika}{5}{section.2.1}%
-\contentsline {subsection}{\numberline {2.1.1}Jenis dan Karakteristik Komponen Pasif}{5}{subsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.1.2}Jenis dan Karakteristik Komponen Aktif}{5}{subsection.2.1.2}%
-\contentsline {subsection}{\numberline {2.1.3}Peran dan Fungsi Modul dalam Sistem Elektronika}{5}{subsection.2.1.3}%
-\contentsline {subsection}{\numberline {2.1.4}Analisis Daya dan Efisiensi Komponen}{5}{subsection.2.1.4}%
-\contentsline {section}{\numberline {2.2}Sistem dan Teknik Rangkaian Elektronika}{6}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Konsep Dasar Rangkaian Analog}{6}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Konsep Dasar Rangkaian Digital}{6}{subsection.2.2.2}%
-\contentsline {subsection}{\numberline {2.2.3}Teknik Pengolahan Sinyal pada Sistem Elektronika}{6}{subsection.2.2.3}%
-\contentsline {subsection}{\numberline {2.2.4}Pengkabelan dan Pengaturan Sirkuit untuk Keandalan Sistem}{6}{subsection.2.2.4}%
-\contentsline {subsection}{\numberline {2.2.5}Pengendalian dan Penggerak (Motor Driver, Relay, dsb.)}{6}{subsection.2.2.5}%
-\contentsline {section}{\numberline {2.3}Teknologi yang Digunakan}{6}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Mikrokontroler dan Mikroprosesor}{7}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Sensor dan Aktuator}{7}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Teknologi Nirkabel}{7}{subsection.2.3.3}%
-\contentsline {section}{\numberline {2.4}Metode Kontrol dan Kecerdasan Buatan}{7}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Pengendalian PID (Proportional-Integral-Derivative)}{7}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Fuzzy Logic Control}{7}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Deep Learning}{7}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Perbandingan dan Pemilihan Metode yang Sesuai}{8}{subsection.2.4.4}%
-\contentsline {section}{\numberline {2.5}Konsep Engineering Design Process}{8}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Pengertian dan Langkah-langkah Engineering Design Process}{8}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Aplikasi Engineering Design Process pada Proyek Elektronika}{8}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Studi Kasus Implementasi Engineering Design Process dalam Desain Elektronika}{8}{subsection.2.5.3}%
-\contentsline {subsection}{\numberline {2.5.4}Teknik Evaluasi dan Optimasi Desain}{8}{subsection.2.5.4}%
-\contentsline {section}{\numberline {2.6}Penelitian Terdahulu yang Relevan}{8}{section.2.6}%
-\contentsline {subsection}{\numberline {2.6.1}Tinjauan Penelitian Terdahulu tentang Proyek Serupa}{9}{subsection.2.6.1}%
-\contentsline {subsection}{\numberline {2.6.2}Analisis Kekurangan dan Kelebihan Metode pada Penelitian Terdahulu}{9}{subsection.2.6.2}%
-\contentsline {subsection}{\numberline {2.6.3}Inovasi dan Kontribusi yang Dibawa dalam Penelitian Ini}{9}{subsection.2.6.3}%
-\contentsline {chapter}{\numberline {3}KONSEP RANCANGAN ALAT DAN PENGUJIAN}{10}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Metode Pengerjaan Project Berbasis Engineering Design Process}{10}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{10}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Definisi Kebutuhan}{10}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Generasi Ide dan Solusi}{10}{subsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.1.4}Perencanaan dan Desain Awal}{10}{subsection.3.1.4}%
-\contentsline {subsection}{\numberline {3.1.5}Pembuatan Prototipe}{10}{subsection.3.1.5}%
-\contentsline {subsection}{\numberline {3.1.6}Pengujian dan Evaluasi}{11}{subsection.3.1.6}%
-\contentsline {subsection}{\numberline {3.1.7}Perbaikan dan Penyempurnaan}{11}{subsection.3.1.7}%
-\contentsline {section}{\numberline {3.2}Perancangan Sistem Elektronika}{11}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Blok Diagram Sistem}{11}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Pemilihan dan Spesifikasi Komponen Elektronika}{11}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Perancangan Rangkaian Elektronika}{11}{subsection.3.2.3}%
-\contentsline {section}{\numberline {3.3}Perancangan Mekanik}{11}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Desain Mekanik}{11}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Pemilihan Bahan dan Komponen Mekanik}{12}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Desain Struktur dan Konstruksi}{12}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Perancangan Perangkat Lunak}{12}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Flowchart atau Diagram Alir Perangkat Lunak}{12}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Pemrograman dan Pengembangan Kode}{12}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Pengujian Kode Perangkat Lunak}{12}{subsection.3.4.3}%
-\contentsline {section}{\numberline {3.5}Perancangan Integrasi Sistem}{12}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Integrasi Komponen Elektronika, Mekanik, dan Perangkat Lunak}{12}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Pengujian Awal dan Penyempurnaan Integrasi}{13}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Rencana Pengujian}{13}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Metode Pengujian Sistem}{13}{subsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.6.2}Prosedur Pengujian}{13}{subsection.3.6.2}%
-\contentsline {subsection}{\numberline {3.6.3}Kriteria Keberhasilan Pengujian}{13}{subsection.3.6.3}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{14}{section*.8}%
+\contentsline {section}{\numberline {2.1}Dasar Teori}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}UMKM dan Digitalisasi}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Media Sosial sebagai Sumber Data}{6}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Analisis Sentimen pada Media Sosial}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Dashboard Analitik dan Visualisasi Data}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Arsitektur Client Data Layer}{9}{subsection.2.1.5}%
+\contentsline {subsection}{\numberline {2.1.6}TanStack Query (React Query)}{12}{subsection.2.1.6}%
+\contentsline {subsection}{\numberline {2.1.7}REST API}{13}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Penelitian Terkait}{14}{section.2.2}%
+\contentsline {chapter}{\numberline {3}KONSEP RANCANGAN ALAT DAN PENGUJIAN}{15}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Metode Pengerjaan Project Berbasis Engineering Design Process}{15}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Identifikasi Masalah}{15}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Definisi Kebutuhan}{15}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Generasi Ide dan Solusi}{15}{subsection.3.1.3}%
+\contentsline {subsection}{\numberline {3.1.4}Perencanaan dan Desain Awal}{15}{subsection.3.1.4}%
+\contentsline {subsection}{\numberline {3.1.5}Pembuatan Prototipe}{15}{subsection.3.1.5}%
+\contentsline {subsection}{\numberline {3.1.6}Pengujian dan Evaluasi}{16}{subsection.3.1.6}%
+\contentsline {subsection}{\numberline {3.1.7}Perbaikan dan Penyempurnaan}{16}{subsection.3.1.7}%
+\contentsline {section}{\numberline {3.2}Perancangan Sistem Elektronika}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Blok Diagram Sistem}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Pemilihan dan Spesifikasi Komponen Elektronika}{16}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Perancangan Rangkaian Elektronika}{16}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Perancangan Mekanik}{16}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Spesifikasi Desain Mekanik}{16}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Pemilihan Bahan dan Komponen Mekanik}{17}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Desain Struktur dan Konstruksi}{17}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Perancangan Perangkat Lunak}{17}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Flowchart atau Diagram Alir Perangkat Lunak}{17}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Pemrograman dan Pengembangan Kode}{17}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Pengujian Kode Perangkat Lunak}{17}{subsection.3.4.3}%
+\contentsline {section}{\numberline {3.5}Perancangan Integrasi Sistem}{17}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Integrasi Komponen Elektronika, Mekanik, dan Perangkat Lunak}{17}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Pengujian Awal dan Penyempurnaan Integrasi}{18}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Rencana Pengujian}{18}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Metode Pengujian Sistem}{18}{subsection.3.6.1}%
+\contentsline {subsection}{\numberline {3.6.2}Prosedur Pengujian}{18}{subsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.6.3}Kriteria Keberhasilan Pengujian}{18}{subsection.3.6.3}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{19}{section*.9}%

@@ -1,5 +1,19 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Alviani, Studi, Fakultas \& Bangsa}{Alviani
+  et~al.}{2025}]{Alviani2025}
+Alviani, N.~A., Studi, P., Fakultas, M., \& Bangsa, U.~B. (2025).
+\newblock {Transformasi Digital pada UMKM dalam Meningkatkan Daya Saing Pasar}.
+\newblock {\em Master Manajemen}, {\em 3\/}(1), 134--140.
+
+\bibitem[\protect\citeauthoryear{Fajarini, Kurniawati \& Yuliani}{Fajarini
+  et~al.}{2025}]{Fajarini2025}
+Fajarini, S., Kurniawati, J., \& Yuliani, F. (2025).
+\newblock Social media sentiment analysis as a new tool for predicting market
+  trends and consumer behaviour.
+\newblock {\em Proceeding of International Conference on Social Science and
+  Humanity}, {\em 2}, 899--909.
+
 \bibitem[\protect\citeauthoryear{Irianto, Viesta, Nugroho, Wahyuni, Prabowo,
   Hamid, Anufah, Permatasari, Salsabila, Sofyana \& Hardiyanti}{Irianto
   et~al.}{2022}]{Irianto2022}
@@ -10,6 +24,13 @@ Irianto, H., Viesta, A.~D., Nugroho, A.~T., Wahyuni, T., Prabowo, W.~C., Hamid,
   Online di Desa Tengklik}.
 \newblock {\em Journal of Cooperative, Small and Medium Enterprise
   Development}, {\em 1\/}(2), 60--64.
+
+\bibitem[\protect\citeauthoryear{Islam}{Islam}{2025}]{Islam2025}
+Islam, M.~M. (2025).
+\newblock The impact of data-driven web frameworks on performance and
+  scalability of u.s. enterprise applications.
+\newblock {\em International Journal of Business and Economics Insights}, {\em
+  05}, 523--558.
 
 \bibitem[\protect\citeauthoryear{Joseph}{Joseph}{2024}]{Joseph2024}
 Joseph, T. (2024).
@@ -23,11 +44,46 @@ Luz, H. (2025).
 \newblock {Comparing Performance of Redux, MobX, and React Query}.
 \newblock Preprint, ResearchGate.
 
+\bibitem[\protect\citeauthoryear{Mardhatilah, Omar \& Septiari}{Mardhatilah
+  et~al.}{2024}]{Mardhatilah2024}
+Mardhatilah, D., Omar, A., \& Septiari, E.~D. (2024).
+\newblock {BUILDING CONSUMER ENGAGEMENT IN SOCIAL MEDIA: A SYSTEMATIC
+  LITERATURE REVIEW}.
+\newblock {\em JOURNAL OF BUSINESS MANAGEMENT AND ACCOUNTING}, {\em 14\/}(1),
+  1--35.
+
 \bibitem[\protect\citeauthoryear{Micheal}{Micheal}{2025}]{Micheal2025}
 Micheal, D. (2025).
 \newblock {React Query and Lazy Loading: Performance Optimization Best
   Practices}.
 \newblock Preprint, ResearchGate.
+
+\bibitem[\protect\citeauthoryear{Rahman \& Prihanto}{Rahman \&
+  Prihanto}{2024}]{Rahman2024}
+Rahman, A. \& Prihanto, A. (2024).
+\newblock {Optimisasi Kinerja Aplikasi Fitness Berbasis Next.js Melalui
+  Penerapan Metode Caching Pada PT. Anugerah Wijaya Raga}.
+\newblock {\em Journal of Informatics and Computer Science (JINACS)}, {\em
+  6\/}(02), 333--340.
+
+\bibitem[\protect\citeauthoryear{Rathore, Nawkhare, Sharma, Chaudhary, Chakole
+  \& Vishwakrama}{Rathore et~al.}{2025}]{Rathore2025}
+Rathore, S., Nawkhare, R., Sharma, N., Chaudhary, N., Chakole, S., \&
+  Vishwakrama, B. (2025).
+\newblock Effective data visualization techniques for business decision-makers.
+\newblock {\em International Research Journal on Advanced Engineering and
+  Management (IRJAEM)}, {\em 3}, 2029--2036.
+
+\bibitem[\protect\citeauthoryear{Sofyan \& Agusman}{Sofyan \&
+  Agusman}{2025}]{Sofyan2025}
+Sofyan, S. \& Agusman (2025).
+\newblock {ANALISIS KESIAPAN UMKM MENGHADAPI EKONOMI DIGITAL}.
+\newblock {\em Smart Jurnal Ilmiah}, {\em IX\/}(1), 1--4.
+
+\bibitem[\protect\citeauthoryear{{Tanstack LCC}}{{Tanstack
+  LCC}}{2025}]{TanstackLCC2025}
+{Tanstack LCC} (2025).
+\newblock {Tanstack Query Official Documentation}.
 
 \bibitem[\protect\citeauthoryear{Trulline}{Trulline}{2021}]{Trulline2021}
 Trulline, P. (2021).

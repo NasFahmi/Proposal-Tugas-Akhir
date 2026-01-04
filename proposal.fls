@@ -524,6 +524,19 @@ OUTPUT b2-bab2.aux
 INPUT .\b2-bab2.tex
 INPUT .\b2-bab2.tex
 INPUT b2-bab2.tex
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT .\gambar\client-data-layer-paradigm.png
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT .\b3-bab3.tex
 INPUT .\b3-bab3.tex
 OUTPUT b3-bab3.aux
