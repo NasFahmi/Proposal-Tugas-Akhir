@@ -9,23 +9,25 @@
 \contentsline {chapter}{DAFTAR TABEL}{viii}{section*.7}%
 \contentsline {chapter}{\numberline {1}PENDAHULUAN}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Latar Belakang}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Perumusan Masalah}{3}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Tujuan Proyek}{3}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Manfaat Tugas Akhir}{3}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Batasan Proyek}{4}{section.1.5}%
+\contentsline {section}{\numberline {1.2}Rumusan Masalah}{3}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Tujuan}{3}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Manfaat}{3}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Batasan}{4}{section.1.5}%
 \contentsline {chapter}{\numberline {2}TINJAUAN PUSTAKA}{5}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Dasar Teori}{5}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Landasan Teori}{5}{section.2.1}%
 \contentsline {subsection}{\numberline {2.1.1}UMKM dan Digitalisasi}{5}{subsection.2.1.1}%
 \contentsline {subsection}{\numberline {2.1.2}Media Sosial sebagai Sumber Data}{6}{subsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.1.3}Analisis Sentimen pada Media Sosial}{6}{subsection.2.1.3}%
 \contentsline {subsection}{\numberline {2.1.4}Dashboard Analitik dan Visualisasi Data}{7}{subsection.2.1.4}%
 \contentsline {subsection}{\numberline {2.1.5}Arsitektur Client Data Layer}{9}{subsection.2.1.5}%
 \contentsline {subsection}{\numberline {2.1.6}TanStack Query (React Query)}{12}{subsection.2.1.6}%
-\contentsline {subsection}{\numberline {2.1.7}REST API}{13}{subsection.2.1.7}%
-\contentsline {section}{\numberline {2.2}Penelitian Terkait}{14}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Analisa Gap Penelitian}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Gap Penelitian 1}{15}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Gap Penelitian 2}{15}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.1.7}REST API}{14}{subsection.2.1.7}%
+\contentsline {section}{\numberline {2.2}Penelitian Terkait}{15}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Analisa Gap Penelitian}{16}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Gap Penelitian 1}{16}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Gap Penelitian 2}{16}{subsection.2.3.2}%
 \contentsline {subsection}{\numberline {2.3.3}Gap Penelitian 3}{16}{subsection.2.3.3}%
-\contentsline {chapter}{\numberline {3}KONSEP RANCANGAN ALAT DAN PENGUJIAN}{17}{chapter.3}%
-\contentsline {chapter}{DAFTAR PUSTAKA}{18}{section*.9}%
+\contentsline {chapter}{\numberline {3}METODOLOGI PENELITIAN}{17}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Waktu dan Jadwal penelitian}{17}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Methode Penelitian}{17}{section.3.2}%
+\contentsline {chapter}{DAFTAR PUSTAKA}{18}{section*.10}%

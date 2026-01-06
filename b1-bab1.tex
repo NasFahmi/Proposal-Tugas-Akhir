@@ -12,33 +12,28 @@ Di era digital saat ini, perilaku konsumen telah berubah secara signifikan. Medi
 
 Namun, data komentar media sosial bersifat tidak terstruktur, jumlahnya besar, dan berubah secara dinamis, sehingga sulit dianalisis tanpa bantuan teknologi. Sejalan dengan \citep{Joseph2024}, Sentiment Analysis pada media sosial merupakan bidang penelitian yang berkembang pesat dan melibatkan penggunaan Natural Language Processing (NLP), text analysis, dan computational linguistics untuk mengidentifikasi serta mengekstraksi informasi subjektif dari data teks. Pendekatan NLP tersebut memungkinkan komentar tidak terstruktur diproses menjadi kategori sentimen yang dapat diinterpretasikan, baik positif, negatif, maupun netral. Dengan demikian, hasil analisis sentimen dari proses NLP dapat disajikan dalam bentuk dashboard interaktif agar UMKM dapat memahami tren sentimen, isu yang sering muncul, serta persepsi pelanggan secara lebih cepat dan intuitif.
 
-Akan tetapi, pembangunan dashboard bukan hanya soal menampilkan data, melainkan bagaimana mengelola alur data di sisi frontend agar akurat, efisien, dan konsisten. Dashboard analitik biasanya memuat berbagai grafik, tabel, filter, dan indikator yang semuanya bergantung pada data API. Jika data dikelola secara tradisional misalnya dengan mengkonsumsi api langsung di setiap komponen React—akan muncul berbagai permasalahan teknis, antara lain: terjadinya permintaan API berulang, inkonsistensi data antar-komponen, waktu muat (loading time) yang lama, beban render tinggi karena komponen terus memperbarui data, sulit melakukan sinkronisasi state dan memelihara kode dalam jangka panjang.
+Dalam pengembangan dashboard analitik berbasis web, tantangan tidak hanya terletak pada penyajian visualisasi data, tetapi juga pada pengelolaan alur data di sisi frontend. Dashboard analitik merupakan aplikasi yang bersifat data-driven, di mana berbagai komponen antarmuka seperti grafik, tabel, dan indikator bergantung pada data yang sama dan diperbarui secara berkala melalui API. Jika pengambilan data dilakukan secara langsung pada setiap komponen tanpa arsitektur pengelolaan data yang terstruktur, maka dapat muncul berbagai permasalahan, seperti permintaan API berulang, inkonsistensi data antar-komponen, serta kesulitan dalam pemeliharaan kode aplikasi.
 
-Pada aplikasi data-driven seperti dashboard sentimen, masalah di atas dapat mengakibatkan pengalaman pengguna yang buruk dan data yang tidak akurat. Oleh karena itu, dibutuhkan pendekatan arsitektur modern yang mampu memisahkan logika pengelolaan data dari tampilan (UI), sekaligus memastikan setiap komponen menerima data yang konsisten, tersinkronisasi, dan tidak melakukan permintaan API berlebihan.
+Pendekatan arsitektur Client Data Layer hadir sebagai solusi untuk mengelola data yang bersumber dari server secara terpusat di sisi klien. Dengan adanya Client Data Layer, proses pengambilan, penyimpanan sementara, dan sinkronisasi data dapat dilakukan secara terstruktur, sehingga komponen antarmuka tidak perlu berinteraksi langsung dengan API. Salah satu pustaka yang mendukung pendekatan ini adalah TanStack Query, yang dirancang untuk mengelola server state secara efisien melalui mekanisme caching, deduplikasi permintaan, serta sinkronisasi data antar-komponen.
 
-Salah satu solusi modern untuk tantangan tersebut adalah TanStack Query (sebelumnya React Query), sebuah pustaka server state management yang dirancang untuk menangani data asinkron dari API secara efisien. TanStack Query menyediakan fitur-fitur penting seperti caching otomatis, background refetching, query deduplication, stale-time management, prefetching, optimistic update, dan lazy-fetching berbasis kondisi melalui opsi enabled. Dengan mekanisme tersebut, frontend dapat mengelola data API seperti sebuah data layer yang mandiri, terstruktur, dan optimal.
+Sejumlah penelitian terdahulu menunjukkan bahwa TanStack Query memiliki keunggulan dalam pengelolaan data asinkron pada aplikasi frontend dibandingkan pendekatan pengelolaan data konvensional, khususnya pada aplikasi yang bersifat data-driven dan menampilkan data dalam jumlah besar \citep{Luz2025}. Penelitian yang membandingkan TanStack Query dengan pustaka state management lain juga melaporkan adanya peningkatan efisiensi pengelolaan server state dan pengurangan permintaan data yang tidak diperlukan \citep{Micheal2025}. Namun demikian, sebagian besar penelitian tersebut masih berfokus pada aspek teknis pustaka atau perbandingan antar-library, dan belum secara spesifik mengkaji penerapan TanStack Query sebagai Client Data Layer pada studi kasus dashboard analitik.
 
-Penelitian terbaru menunjukkan bahwa TanStack Query mampu mengurangi jumlah request API yang tidak diperlukan, meningkatkan performa aplikasi, serta menjaga konsistensi data antar-komponen sehingga sangat cocok diterapkan pada aplikasi berskala besar seperti dashboard analitik. Studi Comparing Performance of Redux, MobX, and React Query \citep{Luz2025} menunjukkan bahwa React Query unggul dalam manajemen server state dibandingkan library state management lainnya, terutama dalam aplikasi yang memuat data dalam jumlah besar. Sementara itu, penelitian React Query and Lazy Loading Performance Optimization Best Practices \citep{Micheal2025} menjelaskan bahwa kombinasi caching, lazy loading, dan query control dapat meningkatkan performa frontend secara signifikan.
+Berdasarkan permasalahan tersebut, penelitian ini muncul dari hipotesis bahwa penerapan arsitektur Client Data Layer menggunakan TanStack Query pada aplikasi dashboard analitik mampu menghasilkan pengelolaan data frontend yang lebih terstruktur dan konsisten dibandingkan pendekatan pengelolaan data konvensional, yaitu pengambilan data API secara langsung pada komponen antarmuka tanpa mekanisme pengelolaan data terpusat. Perilaku tersebut diasumsikan tercermin melalui pemanfaatan mekanisme caching, pengendalian permintaan data dari API, serta konsistensi data yang ditampilkan pada berbagai komponen dashboard. Untuk menguji hipotesis tersebut, TanStack Query diterapkan pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM dengan metode Fountain, dan hasilnya dievaluasi melalui observasi perilaku sistem menggunakan pendekatan blackbox testing berbasis log.
 
-Berdasarkan kebutuhan UMKM akan sistem pemantauan opini publik serta tantangan teknis dalam pengembangan dashboard analitik, penerapan arsitektur Client Data Layer menggunakan TanStack Query menjadi sangat relevan. Dengan pendekatan ini, pengembangan frontend dapat menjadi lebih efisien, terstruktur, dan mampu menampilkan data sentimen secara cepat, akurat, dan responsif. Oleh karena itu, penelitian ini berfokus pada penerapan arsitektur tersebut dalam pengembangan Dashboard Analisis Sentimen UMKM sebagai upaya mendukung digitalisasi UMKM dalam memahami persepsi konsumen dan meningkatkan daya saing.
-
-\section{Perumusan Masalah}
+\section{Rumusan Masalah}
 \begin{packed_enum}
-  \item Bagaimana menerapkan arsitektur Client Data Layer menggunakan TanStack Query pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM?
-  \item Bagaimana penggunaan arsitektur Client Data Layer menggunakan TanStack Query dapat meningkatkan performa frontend?
+  \item Bagaimana menerapkan arsitektur Client Data Layer menggunakan TanStack Query pada pengembangan Dashboard Analisis Sentimen UMKM?
+  \item Bagaimana perilaku pengelolaan data frontend yang dihasilkan setelah penerapan TanStack Query ditinjau dari log permintaan data, mekanisme caching, dan konsistensi data antar-komponen dashboard?
 \end{packed_enum}
 
 
-\section{Tujuan Proyek}
-\begin{packed_enum}
-  \item Menerapkan arsitektur Client Data Layer berbasis TanStack Query pada sebuah kasus nyata, yaitu Dashboard Analisis Sentimen UMKM.
-  \item Mengevaluasi dampak penggunaan TanStack Query terhadap performa frontend pada studi kasus tersebut. 
-  \item Menghasilkan dashboard analisis sentimen yang cepat, responsif, dan efektif digunakan pada konteks UMKM.
-\end{packed_enum}
+\section{Tujuan}
 
-\indent Dari tujuan tujuan tersebut, penelitian ini memiliki tujuan utama yaitu menerapkan arsitektur Client Data Layer berbasis TanStack Query pada sebuah kasus pengembangan Dashboard Analisis Sentimen UMKM, guna meningkatkan kualitas pengelolaan data pada sisi frontend. Penerapan arsitektur ini difokuskan pada pemanfaatan mekanisme caching, pengendalian data fetching, dan sinkronisasi data antar-komponen agar data yang ditampilkan lebih konsisten. Selain itu, penelitian ini bertujuan untuk mengevaluasi dampak penggunaan TanStack Query terhadap performa frontend dashboard, khususnya dari aspek waktu muat, jumlah permintaan API, dan responsivitas tampilan. Melalui penerapan tersebut, diharapkan dapat dihasilkan dashboard analisis sentimen yang cepat, responsif, serta efektif digunakan oleh UMKM dalam memahami persepsi konsumen berbasis data.
+\indent Penelitian ini bertujuan untuk menerapkan arsitektur Client Data Layer menggunakan TanStack Query pada studi kasus pengembangan Dashboard Analisis Sentimen UMKM. Penerapan arsitektur ini difokuskan pada pengelolaan data API di sisi frontend agar proses pengambilan dan penyajian data dapat dilakukan secara terstruktur.
 
-\section{Manfaat Tugas Akhir}
+Selain itu, penelitian ini bertujuan untuk mengevaluasi perilaku pengelolaan data frontend setelah penerapan TanStack Query melalui pendekatan blackbox testing. Evaluasi dilakukan dengan mengamati log sistem yang berkaitan dengan permintaan API, pemanfaatan mekanisme caching, serta sinkronisasi data antar-komponen dashboard. Melalui penerapan dan evaluasi tersebut, penelitian ini diharapkan dapat memberikan gambaran praktis mengenai implementasi arsitektur Client Data Layer pada aplikasi frontend berbasis React.
+
+\section{Manfaat}
 
 Manfaat Teoritis
 
@@ -51,42 +46,32 @@ Manfaat Teoritis
 Manfaat Praktis
 
 \begin{packed_enum}
-  \item \textbf{Manfaat bagi UMKM}
+  \item \textbf{bagi UMKM}
 
-  Penelitian ini menghasilkan sebuah dashboard analisis sentimen yang dapat
-  membantu UMKM dalam memahami komentar dan sentimen publik terhadap produk
-  mereka secara lebih cepat. Dengan informasi tersebut, UMKM diharapkan
-  memperoleh wawasan mengenai persepsi konsumen sebagai dasar pengambilan
-  keputusan bisnis.
+  Penelitian ini menghasilkan sebuah dashboard analisis sentimen yang dapat membantu UMKM memahami persepsi konsumen berdasarkan data media sosial secara lebih terstruktur dan mudah dipahami.
 
   \item \textbf{Manfaat bagi Pengembang}
 
-  Penelitian ini memberikan studi kasus penerapan arsitektur Client Data
-  Layer menggunakan TanStack Query pada aplikasi React. Hasil penelitian
-  ini dapat dijadikan acuan oleh pengembang frontend dalam merancang
-  pengelolaan data yang lebih konsisten dan terstruktur.
+  Penelitian ini memberikan studi kasus penerapan arsitektur Client Data Layer menggunakan TanStack Query yang dapat dijadikan acuan dalam merancang pengelolaan data frontend pada aplikasi data-driven.
 
   \item \textbf{Manfaat bagi Akademisi}
 
-  Penelitian ini menyediakan studi kasus yang dapat dijadikan referensi
-  bagi akademisi maupun mahasiswa dalam penelitian sejenis, khususnya yang
-  membahas arsitektur frontend, pengelolaan server state, dan pengembangan
-  dashboard analitik.
+  Penelitian ini dapat dijadikan referensi bagi penelitian sejenis yang membahas arsitektur frontend, pengelolaan server state, dan pengembangan dashboard analitik.
 \end{packed_enum}
 
 
-\section{Batasan Proyek}
+\section{Batasan}
 Batasan proyek ditetapkan agar penelitian tetap terfokus pada tujuan yang telah dirumuskan. Adapun batasan proyek dalam Tugas Akhir ini adalah sebagai berikut:
 
 
 \begin{packed_enum}
-  \item Studi kasus yang digunakan adalah Dashboard Analisis Sentimen UMKM yang dikembangkan sebagai bagian dari proyek tim, dengan fokus penelitian pada perancangan dan implementasi arsitektur frontend.
-  \item Ruang lingkup penelitian hanya mencakup sisi frontend aplikasi, khususnya penerapan arsitektur Client Data Layer menggunakan TanStack Query dalam pengelolaan data API.
-  \item Proses analisis sentimen, termasuk pengumpulan data media sosial, preprocessing teks, dan penentuan kategori sentimen, tidak dibahas dalam penelitian ini. Data yang digunakan diperoleh melalui API dari backend dan extenstion browser.
-  \item Penelitian ini tidak mengevaluasi akurasi atau kualitas hasil analisis sentimen, melainkan hanya memanfaatkan hasil tersebut sebagai sumber data untuk dashboard.
-  \item Framework frontend yang digunakan adalah React dengan pustaka TanStack Query, tanpa melakukan perbandingan dengan framework atau library lain seperti Vue, Angular, Redux, atau MobX.
-  \item Evaluasi performa aplikasi hanya dilakukan pada konteks studi kasus dashboard yang dikembangkan, dengan fokus pada waktu muat data, jumlah permintaan API, mekanisme caching, dan konsistensi data antar-komponen.
-  \item Penelitian ini tidak membahas aspek optimasi backend, keamanan aplikasi, load testing, maupun pengujian usability secara mendalam
+  \item Studi kasus penelitian difokuskan pada Dashboard Analisis Sentimen UMKM dengan ruang lingkup penelitian terbatas pada sisi frontend aplikasi.
+  \item Penelitian hanya membahas penerapan arsitektur Client Data Layer menggunakan TanStack Query pada aplikasi frontend berbasis React.
+  \item Proses analisis sentimen, termasuk pengumpulan data media sosial dan pemrosesan teks, tidak dibahas dalam penelitian ini dan sepenuhnya dilakukan pada sisi backend.
+  \item Penelitian ini tidak melakukan perbandingan implementasi TanStack Query dengan pustaka atau framework state management lain
+  \item Evaluasi sistem dilakukan menggunakan pendekatan blackbox testing dengan mengamati log sistem, tanpa melakukan pengujian performa numerik atau benchmarking mendalam.
+  \item Hasil evaluasi disajikan dalam bentuk ringkasan log, tabel, dan visualisasi sederhana untuk menggambarkan perilaku sistem setelah penerapan TanStack Query.
+  \item Penelitian ini tidak membahas aspek optimasi backend, keamanan aplikasi, pengujian beban, maupun pengujian kegunaan secara mendalam.
 \end{packed_enum}
 % \section{Keaslian Gagasan}
 % Keaslian gagasan bertujuan untuk menekankan inovasi atau kontribusi unik yang ditawarkan oleh proyek ini. Bagian ini menjelaskan bagaimana proyek ini menawarkan pendekatan yang berbeda atau peningkatan dibandingkan dengan metode atau perangkat yang sudah ada. Keaslian gagasan dapat diperlihatkan melalui perbandingan dengan proyek atau produk serupa, menunjukkan perbedaan signifikan atau keunggulan yang dihadirkan oleh solusi yang diusulkan. Misalnya, peningkatan kinerja, efisiensi, atau kemudahan penggunaan yang dihasilkan dari metode atau pendekatan baru. Selain itu, bagian ini juga bisa mencakup penggunaan teknologi atau desain yang belum banyak diterapkan dalam konteks yang sama. Penekanan pada keaslian gagasan membantu menunjukkan bahwa proyek ini tidak hanya mengikuti pola yang sudah ada, tetapi juga menghadirkan sesuatu yang baru dan relevan.

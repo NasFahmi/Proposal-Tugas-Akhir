@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  5 JAN 2026 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2025.12.26)  6 JAN 2026 21:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -853,7 +853,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `untouch/xx-sampul-proposal.aux'.
 
 (untouch/xx-sampul-proposal.tex
-<gambar/logo-poliwangi.png, id=125, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=133, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 18.
@@ -960,12 +960,12 @@ Bab 2.
 
 
 ] [6] [7] [8]
-<gambar/client-data-layer-paradigm.png, id=286, 3332.45pt x 3097.5725pt>
+<gambar/client-data-layer-paradigm.png, id=295, 3332.45pt x 3097.5725pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 65.
 (pdftex.def)             Requested size: 364.19667pt x 338.51257pt.
- [9 <./gambar/client-data-layer-paradigm.png>] [10] [11] [12] [13]
+ [9] [10 <./gambar/client-data-layer-paradigm.png>] [11] [12] [13] [14]
 Overfull \hbox (14.46793pt too wide) in alignment at lines 129--139
  [] [] [] [] [] 
  []
@@ -985,11 +985,935 @@ Overfull \hbox (14.46793pt too wide) in alignment at lines 151--174
  [] [] [] [] [] 
  []
 
-[14] [15]) [16]
+[15]) [16]
 \openout2 = `b3-bab3.aux'.
 
  (b3-bab3.tex
 Bab 3.
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Collection} & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...research proposal & \cellcolor 
+                                                  {yellow!25} & & & \\ \clin...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...lection framework & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...p infrastruktur & & \cellcolor 
+                                                  {yellow!25} & & \\ \hline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ta Preparation} & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... quality checks & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Analysis) & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...berlabel ABSA & & & \cellcolor 
+                                                  {yellow!25} & \\ \hline \p...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Development} & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...BERT/IndoBERT & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...n experiments & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...evelopment} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... sentiment) & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rekomendasi & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...an Testing} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ion testing & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... deployment & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rt 1 (Des--Jan) & & \cellcolor 
+                                                  {yellow!15} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!15} & \cellcolor 
+                                                  {yellow!15} & \\ \hline & ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ort 2 (Feb) & & & & \cellcolor 
+                                                  {yellow!15} \\ \hline 
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Collection} & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...research proposal & \cellcolor 
+                                                  {yellow!25} & & & \\ \clin...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...lection framework & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...p infrastruktur & & \cellcolor 
+                                                  {yellow!25} & & \\ \hline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ta Preparation} & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... quality checks & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Analysis) & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...berlabel ABSA & & & \cellcolor 
+                                                  {yellow!25} & \\ \hline \p...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Development} & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...BERT/IndoBERT & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...n experiments & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...evelopment} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... sentiment) & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rekomendasi & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...an Testing} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ion testing & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... deployment & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rt 1 (Des--Jan) & & \cellcolor 
+                                                  {yellow!15} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!15} & \cellcolor 
+                                                  {yellow!15} & \\ \hline & ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ort 2 (Feb) & & & & \cellcolor 
+                                                  {yellow!15} \\ \hline 
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Collection} & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...research proposal & \cellcolor 
+                                                  {yellow!25} & & & \\ \clin...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...lection framework & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & & \\ \cline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...p infrastruktur & & \cellcolor 
+                                                  {yellow!25} & & \\ \hline ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ta Preparation} & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... quality checks & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Data Analysis) & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} & \\ \cline {2...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...berlabel ABSA & & & \cellcolor 
+                                                  {yellow!25} & \\ \hline \p...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... Development} & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...BERT/IndoBERT & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...n experiments & & & \cellcolor 
+                                                  {yellow!25} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!25} & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...evelopment} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... sentiment) & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rekomendasi & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...an Testing} & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ion testing & & & & \cellcolor 
+                                                  {yellow!25} \\ \cline {2-6...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ... deployment & & & & \cellcolor 
+                                                  {yellow!25} \\ \hline \par...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...rt 1 (Des--Jan) & & \cellcolor 
+                                                  {yellow!15} & \cellcolor {...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...color {yellow!15} & \cellcolor 
+                                                  {yellow!15} & \\ \hline & ...
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+b3-bab3.tex:61: Undefined control sequence.
+<inserted text> ...ort 2 (Feb) & & & & \cellcolor 
+                                                  {yellow!15} \\ \hline 
+l.61 	\end{tabularx}
+                    
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 ) [17
 
 
@@ -1011,20 +1935,20 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 554D2EFC8A2BE51F20FAD039623D6C8A;4492.
+(rerunfilecheck)             Checksum: 6A15C89F1C9C5DDDF705ED7292FC6BC0;4624.
  ) 
 Here is how much of TeX's memory you used:
- 39321 strings out of 474486
- 891491 string characters out of 5753569
- 1940542 words of memory out of 5000000
- 60831 multiletter control sequences out of 15000+600000
- 580917 words of font info for 73 fonts, out of 8000000 for 9000
+ 39353 strings out of 474486
+ 891995 string characters out of 5753569
+ 1946542 words of memory out of 5000000
+ 60861 multiletter control sequences out of 15000+600000
+ 591631 words of font info for 94 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,9n,95p,961b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,10n,95p,977b,825s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (27 pages, 595937 bytes).
+Output written on proposal.pdf (27 pages, 598230 bytes).
 PDF statistics:
- 382 PDF objects out of 1000 (max. 8388607)
+ 391 PDF objects out of 1000 (max. 8388607)
  93 named destinations out of 1000 (max. 500000)
- 263 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 279 words of extra memory for PDF output out of 10000 (max. 10000000)
 

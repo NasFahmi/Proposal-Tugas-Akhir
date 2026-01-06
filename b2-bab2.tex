@@ -5,7 +5,7 @@
 
 \chapter[TINJAUAN PUSTAKA]{\\ TINJAUAN PUSTAKA}
 
-\section{Dasar Teori}
+\section{Landasan Teori}
 
 \subsection{UMKM dan Digitalisasi}
 
@@ -58,7 +58,7 @@ Bagi UMKM, keberadaan dashboard analitik menjadi sangat relevan karena dapat men
 
 Pada aplikasi frontend modern yang bersifat data-driven, pengelolaan data yang bersumber dari Application Programming Interface (API) menjadi salah satu aspek penting dalam arsitektur sistem. Aplikasi seperti dashboard analitik umumnya menampilkan berbagai komponen antarmuka, seperti grafik, tabel, dan indikator, yang bergantung pada data yang sama dan diperbarui secara berkala. Jika pengambilan dan pengolahan data dilakukan secara langsung di setiap komponen antarmuka, maka dapat menimbulkan berbagai permasalahan, seperti permintaan API yang berulang, inkonsistensi data antar-komponen, serta peningkatan beban render yang berdampak pada penurunan performa aplikasi.
 
-Client Data Layer merupakan pendekatan arsitektural dalam pengembangan frontend modern yang bertujuan untuk mengelola data yang bersumber dari server secara terpusat di sisi klien. Pendekatan ini muncul sebagai respons terhadap meningkatnya kompleksitas aplikasi data-driven, dimana data bersifat asinkron, dinamis, dan digunakan oleh banyak komponen antarmuka secara bersamaan. Dengan adanya Client Data Layer, proses fetching,chaching, dan synchronize data dapat dilakukan secara lebih terstruktur, sehingga membantu menjaga konsistensi data dan meningkatkan efisiensi aplikasi.
+Client Data Layer merupakan pendekatan arsitektural dalam pengembangan frontend modern yang bertujuan untuk mengelola data yang bersumber dari server secara terpusat di sisi klien. Pendekatan ini muncul sebagai respons terhadap meningkatnya kompleksitas aplikasi data-driven, dimana data bersifat asinkron, dinamis, dan digunakan oleh banyak komponen antarmuka secara bersamaan. Dengan adanya Client Data Layer, proses fetching,chaching, dan synchronize data dapat dilakukan secara lebih terstruktur, sehingga membantu menjaga konsistensi data dan sehingga membantu menjaga konsistensi data dan mendukung pengelolaan data frontend secara lebih terstruktur.
 
 \begin{figure}[H]
   \centering
@@ -75,7 +75,7 @@ Client Data Layer merupakan pendekatan arsitektural dalam pengembangan frontend 
 
   \item Client-side Data Management
   
-  Client-side data management berfokus pada pengelolaan data di sisi klien setelah data tersebut diperoleh dari server, termasuk penyimpanan sementara, penggunaan ulang data, serta distribusi data ke berbagai komponen antarmuka. Pendekatan ini bertujuan untuk mengurangi ketergantungan terhadap permintaan data berulang ke server, sehingga dapat meningkatkan efisiensi aplikasi, mempercepat waktu muat, dan menjaga konsistensi informasi yang ditampilkan. Dengan pengelolaan data yang terstruktur di sisi klien, aplikasi frontend dapat menyajikan data secara lebih responsif dan stabil, khususnya pada aplikasi yang bersifat data-driven seperti dashboard analitik.
+  Client-side data management berfokus pada pengelolaan data di sisi klien setelah data tersebut diperoleh dari server, termasuk penyimpanan sementara, penggunaan ulang data, serta distribusi data ke berbagai komponen antarmuka. Pendekatan ini bertujuan untuk mengurangi ketergantungan terhadap permintaan data berulang ke server, sehingga dapat mengurangi ketergantungan terhadap permintaan data berulang ke server dan menjaga konsistensi informasi yang ditampilkan. Dengan pengelolaan data yang terstruktur di sisi klien, aplikasi frontend dapat menyajikan data secara lebih responsif dan stabil, khususnya pada aplikasi yang bersifat data-driven seperti dashboard analitik.
 
   \item Data-driven Frontend Architecture
   
@@ -87,13 +87,13 @@ Client Data Layer merupakan pendekatan arsitektural dalam pengembangan frontend 
 
   \item Frontend Data Caching and Synchronization
   
-  Data Caching and Synchronization adalah teknik untuk meningkatkan kinerja aplikasi dengan menyimpan salinan data dari server di memori klien. Dengan adanya cache, aplikasi dapat menampilkan informasi secara cepat tanpa perlu melakukan permintaan berulang ke server. Namun, teknik ini juga menimbulkan tantangan, yaitu data yang disimpan dapat menjadi kedaluwarsa jika terjadi perubahan di sisi server. Oleh karena itu, diperlukan mekanisme sinkronisasi yang cerdas, seperti pembaruan di latar belakang (background refresh) dan penandaan cache yang kedaluwarsa (cache invalidation). Dengan pendekatan ini, aplikasi dapat mencapai kecepatan optimal sekaligus memastikan keakuratan data yang ditampilkan.
+  Data Caching and Synchronization adalah teknik untuk meningkatkan kinerja aplikasi dengan menyimpan salinan data dari server di memori klien. Dengan adanya cache, aplikasi dapat menampilkan informasi secara cepat tanpa perlu melakukan permintaan berulang ke server. Namun, teknik ini juga menimbulkan tantangan, yaitu data yang disimpan dapat menjadi kedaluwarsa jika terjadi perubahan di sisi server. Oleh karena itu, diperlukan mekanisme sinkronisasi yang cerdas, seperti pembaruan di latar belakang (background refresh) dan penandaan cache yang kedaluwarsa (cache invalidation). Dengan pendekatan ini, aplikasi dapat menampilkan data secara lebih konsisten sekaligus menjaga keakuratan informasi yang ditampilkan.
 
-  Beberapa penelitian menunjukkan bahwa penerapan mekanisme caching pada aplikasi frontend dapat meningkatkan performa dan responsivitas sistem. Caching memungkinkan data hasil pemanggilan API disimpan sementara di sisi klien sehingga dapat digunakan kembali tanpa melakukan permintaan ulang ke server. Pendekatan ini terbukti mampu mengurangi duplikasi permintaan API dan mempercepat waktu respons aplikasi, terutama pada aplikasi berbasis framework JavaScript yang bersifat data-driven. Pemanfaatan pustaka seperti TanStack Query dalam mengelola caching dan prefetching data juga dinilai efektif dalam meningkatkan efisiensi pengelolaan data di sisi frontend serta pengalaman pengguna secara keseluruhan \citep{Rahman2024}.
+  Beberapa penelitian menunjukkan bahwa penerapan mekanisme caching pada aplikasi frontend dapat meningkatkan performa dan responsivitas sistem. Caching memungkinkan data hasil pemanggilan API disimpan sementara di sisi klien sehingga dapat digunakan kembali tanpa melakukan permintaan ulang ke server. Pendekatan ini terbukti mampu mengurangi duplikasi permintaan API dan mempercepat waktu respons aplikasi. Pemanfaatan pustaka seperti TanStack Query dalam mengelola caching dan prefetching data juga dinilai efektif dalam meningkatkan efisiensi pengelolaan data di sisi frontend serta pengalaman pengguna secara keseluruhan \citep{Rahman2024}. Dalam konteks penelitian ini, peningkatan performa dipahami sebagai perubahan perilaku pengelolaan data frontend yang diamati melalui mekanisme caching dan pengendalian permintaan data, tanpa dilakukan pengukuran performa numerik.
 
 \end{packed_enum}
 
-Penerapan Client Data Layer memberikan sejumlah manfaat dalam pengembangan aplikasi frontend. Salah satu manfaat utama adalah peningkatan konsistensi data, di mana beberapa komponen yang membutuhkan data yang sama dapat memperoleh informasi yang seragam tanpa harus melakukan permintaan data secara terpisah. Selain itu, Client Data Layer memungkinkan pengurangan jumlah permintaan API yang tidak diperlukan melalui mekanisme caching dan pengelolaan siklus data. Pendekatan ini juga mendukung efisiensi waktu muat aplikasi serta mempermudah pengelolaan data yang bersifat asinkron dan dinamis.
+Penerapan Client Data Layer memberikan sejumlah manfaat dalam pengembangan aplikasi frontend. Salah satu manfaat utama adalah peningkatan konsistensi data, di mana beberapa komponen yang membutuhkan data yang sama dapat memperoleh informasi yang seragam tanpa harus melakukan permintaan data secara terpisah. Selain itu, Client Data Layer memungkinkan pengurangan jumlah permintaan API yang tidak diperlukan melalui mekanisme caching dan pengelolaan siklus data. Pendekatan ini juga mendukung mendukung penyajian data yang lebih stabil dan terkelola serta mempermudah pengelolaan data yang bersifat asinkron dan dinamis.
 
 Dalam konteks dashboard analitik, keberadaan Client Data Layer menjadi semakin penting karena data yang ditampilkan umumnya bersifat besar, sering diperbarui, dan digunakan oleh banyak komponen secara bersamaan. Dengan memanfaatkan Client Data Layer, dashboard dapat menampilkan data secara lebih responsif dan stabil, sekaligus meminimalkan risiko inkonsistensi informasi yang ditampilkan kepada pengguna. Pendekatan ini mendukung terciptanya arsitektur frontend yang lebih terorganisasi, mudah dipelihara, dan skalabel.
 
