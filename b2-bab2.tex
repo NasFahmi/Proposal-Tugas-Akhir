@@ -125,10 +125,14 @@ Dalam penelitian ini, REST API diposisikan sebagai penyedia data hasil analisis 
 
 Berikut adalah tabel perbandingan penelitian terkait yang relevan dengan pengembangan penerapan arsitektur Client Data Layer menggunakan TanStack Query pada dashboard sentiment analysis
 
-
-\begin{longtable}{|c|p{2.8cm}|p{2.5cm}|p{4cm}|p{4.5cm}|}
+\begin{table}[H]
+\centering
 \caption{Tabel Perbandingan Penelitian Terkait}
-\label{tab:perbandingan_penelitian} \\
+\label{tab:perbandingan_penelitian}
+\scriptsize
+\setlength{\tabcolsep}{4pt} % mengurangi padding agar muat
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|c|p{2.8cm}|p{2.5cm}|p{4cm}|p{4.5cm}|}
 \hline
 \textbf{No} &
 \textbf{Peneliti} &
@@ -136,19 +140,6 @@ Berikut adalah tabel perbandingan penelitian terkait yang relevan dengan pengemb
 \textbf{Judul} &
 \textbf{Fitur} \\
 \hline
-\endfirsthead
-
-\hline
-\textbf{No} &
-\textbf{Peneliti} &
-\textbf{Teknologi} &
-\textbf{Judul} &
-\textbf{Fitur} \\
-\hline
-\endhead
-
-\hline
-\endfoot
 
 1 &
 Fajarini, Sri Dwi; Kurniawati, Juliana; Yuliani, Fitria (2025) &
@@ -171,8 +162,8 @@ React, React Query (TanStack Query), lazy loading, caching &
 Optimasi performa aplikasi frontend melalui pengelolaan data asinkron, caching, dan lazy loading untuk mengurangi permintaan API berulang. \\
 \hline
 
-\end{longtable}
-
+\end{tabular}
+\end{table}
 
 \section{Analisa Gap Penelitian}
 
