@@ -34,27 +34,230 @@ Berikut adalah serangkaian jadwal kegiatan yang dilakukan selama pelaksanaan pen
 
 1 &
 Analisis Kebutuhan Sistem &
-\cellcolor{yellow} & & & & \\ \hline
+{\cellcolor{yellow}} & & & & \\ \hline
 
 2 &
 Perancangan arsitektur frontend dan Client Data Layer &
-& \cellcolor{yellow} & \cellcolor{yellow} & & \\ \hline
+& {\cellcolor{yellow}} & {\cellcolor{yellow}} & & \\ \hline
 
 3 &
 Desain &
-& & \cellcolor{yellow} & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
+& {\cellcolor{yellow}} & {\cellcolor{yellow}} & {\cellcolor{yellow}} & {\cellcolor{yellow}} \\ \hline
 
 4 &
 Implementasi frontend dan TanStack Query &
-& & & \cellcolor{yellow} & \cellcolor{yellow} \\ \hline
+& {\cellcolor{yellow}} & {\cellcolor{yellow}} & {\cellcolor{yellow}} & {\cellcolor{yellow}} \\ \hline
 
 5 &
 Analisis hasil pengujian dan penyusunan laporan &
-& & & & \cellcolor{yellow} \\ \hline
+& & & & {\cellcolor{yellow}} \\
+\hline
 
 \end{tabular}
 \end{table}
 
 
 \section{Methode Penelitian}
+
+\subsection{Metode Fountain}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.3\textwidth]{gambar/fountain-sdlc.jpg}
+  \caption{Fountain SDLC Model}
+  \label{fig:fountain-sdlc}
+\end{figure}
+
+
+Metode Fountain merupakan model pengembangan perangkat lunak yang bersifat iteratif dan fleksibel, yang dirancang sebagai alternatif terhadap model pengembangan linear seperti Waterfall. Pada metode ini, tahapan pengembangan tidak harus diselesaikan secara kaku dan berurutan, melainkan dapat saling tumpang tindih dan dilakukan secara berulang sesuai kebutuhan. Pendekatan tersebut memungkinkan proses pengembangan sistem berjalan lebih adaptif terhadap perubahan kebutuhan yang muncul selama penelitian.
+
+Karakteristik utama metode Fountain terletak pada kemampuannya untuk memungkinkan setiap tahapan kembali ke tahap sebelumnya tanpa harus mengulang keseluruhan proses pengembangan. Jika pada tahap implementasi ditemukan ketidaksesuaian dengan kebutuhan sistem, maka proses dapat kembali ke tahap analisis atau perancangan untuk dilakukan penyesuaian. Dengan mekanisme ini, metode Fountain mendukung pengembangan sistem yang membutuhkan fleksibilitas dan evaluasi berkelanjutan.
+
+Metode Fountain banyak digunakan dalam pengembangan perangkat lunak dengan kompleksitas menengah hingga tinggi, khususnya pada sistem yang kebutuhan fungsionalnya dapat berkembang dan berubah selama proses implementasi. Metode ini dinilai sesuai dalam konteks penelitian rekayasa perangkat lunak karena mampu mengakomodasi perubahan desain dan penyesuaian teknis yang sering terjadi tanpa mengganggu keseluruhan proses pengembangan sistem.
+
+\subsection{Alasan Pemilihan Metode Fountain}
+
+Pemilihan metode Software Development Life Cycle (SDLC) yang tepat merupakan langkah strategis yang krusial untuk memastikan keberhasilan proyek serta mencegah pembengkakan biaya dan waktu pengembangan \citep{Aniley2024}. Berdasarkan pertimbangan tersebut, penelitian ini mengadopsi metode Fountain yang dinilai relevan karena memiliki karakteristik fleksibel namun tetap terstruktur. Efektivitas metode ini didukung oleh penelitian \citep{Sastra2023} pada perancangan sistem SIP-PTK, yang menunjukkan bahwa model Fountain mampu memandu tahapan analisis, desain, implementasi, hingga pengujian secara efektif pada sistem yang memiliki kebutuhan pengolahan data yang spesifik.
+
+Relevansi metode Fountain juga sejalan dengan fokus penelitian ini, yaitu pengembangan aplikasi frontend yang bersifat data-driven dan memiliki ketergantungan tinggi terhadap interaksi antar-komponen. Dalam pengembangan frontend, tahapan perancangan arsitektur, implementasi, dan pengujian tidak berjalan secara linier, melainkan saling berkaitan dan sering memerlukan penyesuaian berdasarkan hasil evaluasi sistem. Penerapan metode Fountain memungkinkan tahapan pengembangan dan evaluasi berjalan secara paralel serta saling tumpang tindih (overlapping) tanpa menghilangkan struktur dan urutan penelitian yang jelas.
+
+Melalui pendekatan ini, aktivitas analisis kebutuhan, perancangan arsitektur frontend, implementasi Client Data Layer, serta pengujian sistem dapat dilakukan secara berulang dan saling mempengaruhi. Hasil evaluasi pada satu tahapan dapat langsung digunakan sebagai dasar penyesuaian pada tahapan lainnya, seperti perubahan struktur data atau mekanisme sinkronisasi, tanpa harus menunggu seluruh siklus pengembangan selesai. Dengan demikian, proses pengembangan sistem menjadi lebih adaptif dan terkontrol, sehingga diharapkan mampu menghasilkan hasil penelitian yang sesuai dengan tujuan penelitian secara optimal.
+
+\subsection{Alasan Pemilihan Metode Fountain}
+
+Tahapan penerapan metode fountain dalam penelitian ini terdiri atas beberapa tahap sebagai berikut:
+
+
+\begin{packed_enum}
+  \item Analysis
+
+  Tahap analisis dilakukan untuk memahami permasalahan dan kebutuhan sistem berdasarkan latar belakang dan rumusan masalah penelitian. Pada tahap ini dilakukan identifikasi kebutuhan dashboard analisis sentimen UMKM serta karakteristik data yang akan ditampilkan pada sisi frontend.
+
+  \item Requirement Specification
+  
+  Tahap ini bertujuan untuk merumuskan kebutuhan sistem secara lebih terperinci, khususnya kebutuhan fungsional dan nonfungsional frontend. Spesifikasi kebutuhan difokuskan pada pengelolaan data API, konsistensi data antar-komponen, serta kebutuhan performa tampilan dashboard.
+
+  \item Design
+  
+  Tahap perancangan mencakup perancangan arsitektur frontend dan Client Data Layer menggunakan TanStack Query, serta desain antarmuka pengguna. Perancangan ini bertujuan untuk menentukan struktur sistem sebelum proses implementasi dilakukan.
+
+  \item Coding (Implementation)
+  
+  Tahap implementasi dilakukan dengan merealisasikan hasil perancangan ke dalam kode program frontend berbasis React. Pada tahap ini, TanStack Query diimplementasikan untuk mengelola server state, caching data, dan sinkronisasi data antar-komponen dashboard.
+
+  \item Testing
+  
+  Tahap pengujian dilakukan untuk memastikan bahwa sistem berjalan sesuai dengan kebutuhan yang telah ditetapkan. Pengujian dilakukan menggunakan pendekatan blackbox testing dengan mengamati perilaku sistem melalui log permintaan data dan mekanisme caching.
+
+  \item Operation
+  
+  Tahap operasi mencakup penggunaan sistem dalam lingkungan pengujian untuk memastikan aplikasi dapat berjalan dengan baik dan stabil setelah implementasi.
+
+  \item Maintenance
+  
+  Tahap pemeliharaan dilakukan untuk memperbaiki kesalahan minor dan melakukan penyesuaian teknis apabila ditemukan kendala selama penggunaan sistem.
+
+  \item Evaluation
+
+  Tahap evaluasi dilakukan untuk menilai hasil penerapan arsitektur Client Data Layer menggunakan TanStack Query terhadap tujuan penelitian, khususnya terkait efisiensi pengelolaan data dan konsistensi data pada dashboard.
+ 
+
+\end{packed_enum}
+
+
+\section{Perancangan Sistem}
+
+\subsection{Gambaran Umum Sistem}
+
+Sistem yang dikembangkan dalam penelitian ini berupa aplikasi frontend berbasis web yang berfungsi sebagai dashboard analisis sentimen UMKM. Dashboard ini dirancang untuk menyajikan hasil analisis sentimen yang diperoleh dari data media sosial dalam bentuk visualisasi yang informatif dan mudah dipahami oleh pengguna. Informasi yang ditampilkan meliputi ringkasan sentimen, distribusi sentimen, serta indikator lain yang relevan dengan kebutuhan pemantauan persepsi konsumen.
+
+Sistem ini berfokus pada pengelolaan dan penyajian data di sisi frontend, sementara proses pengumpulan data media sosial dan analisis sentimen sepenuhnya dilakukan pada sisi backend. Data hasil analisis sentimen disediakan melalui REST API dan dikonsumsi oleh aplikasi frontend sebagai sumber data utama. Dengan pendekatan ini, frontend diposisikan sebagai lapisan presentasi yang bertanggung jawab dalam mengelola dan menampilkan data secara konsisten kepada pengguna.
+
+Pengembangan sistem difokuskan pada penerapan arsitektur frontend yang mampu mengelola data secara terstruktur dan efisien. Sistem dirancang untuk menangani data yang bersifat dinamis dan digunakan oleh berbagai komponen antarmuka secara bersamaan. Oleh karena itu, diperlukan mekanisme pengelolaan data yang dapat menjaga konsistensi informasi, mengurangi permintaan data yang tidak diperlukan, serta mendukung pembaruan data secara terkontrol.
+
+Pengguna sistem dalam penelitian ini adalah pengguna umum atau pelaku UMKM yang memanfaatkan dashboard sebagai alat pemantauan informasi sentimen. Interaksi pengguna dibatasi pada aktivitas pengamatan data dan eksplorasi informasi yang tersedia pada dashboard, tanpa melibatkan proses pengolahan data secara langsung. Dengan ruang lingkup tersebut, sistem difokuskan pada aspek penyajian data dan pengelolaan data frontend sesuai dengan tujuan penelitian.
+
+\subsection{Perancangan Arsitektur Frontend}
+
+Penelitian ini menerapkan prinsip component-based architecture, di mana antarmuka pengguna dibangun dari komponen-komponen modular yang memiliki tanggung jawab spesifik dan dapat digunakan kembali. Setiap komponen difokuskan pada penyajian data dan interaksi pengguna, sementara logika pengelolaan data dipisahkan ke dalam lapisan tersendiri agar struktur aplikasi lebih terorganisasi dan mudah dipelihara.
+
+Arsitektur frontend dirancang dengan pendekatan data-driven, di mana tampilan antarmuka sepenuhnya bergantung pada data yang dikelola oleh sistem. Untuk mendukung hal tersebut, prinsip separation of concerns diterapkan dengan memisahkan lapisan presentasi dan lapisan pengelolaan data, sehingga komponen antarmuka tidak berinteraksi langsung dengan REST API. Pendekatan ini mendukung pengembangan frontend yang lebih terstruktur dan fleksibel sesuai dengan metode Fountain yang digunakan dalam penelitian ini.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/diagram-architecture.png}
+  \caption{Diagram Arsitektur Frontend}
+  \label{fig:frontend-architecture}
+\end{figure}
+
+Diagram arsitektur frontend pada Gambar \ref{fig:frontend-architecture} digunakan untuk menggambarkan pembagian lapisan sistem serta alur pengelolaan data pada sistem yang dikembangkan. Diagram ini menunjukkan bagaimana data dari REST API dikelola melalui Client Data Layer sebelum disajikan pada komponen antarmuka pengguna.
+
+Lapisan REST API diposisikan sebagai sumber data eksternal yang menyediakan data hasil analisis sentimen. Seluruh proses pengolahan data, termasuk pengambilan data media sosial dan analisis sentimen, dilakukan pada sisi backend dan berada di luar ruang lingkup penelitian ini. Frontend berperan sebagai konsumen data yang mengakses informasi tersebut melalui antarmuka REST API. 
+
+Lapisan Client Data Layer berfungsi sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna. Data yang diperoleh dari REST API dikelola dan dimodelkan secara terpusat pada Client Data Layer sebelum disajikan pada komponen antarmuka pengguna. Lapisan ini bertanggung jawab dalam mengelola data yang bersumber dari server secara terpusat, mencakup proses pengambilan data, penyimpanan sementara (caching), serta sinkronisasi data antar-komponen. Dengan adanya Client Data Layer, komponen antarmuka tidak perlu berinteraksi langsung dengan REST API, sehingga pengelolaan data dapat dilakukan secara lebih terstruktur dan konsisten. 
+
+Lapisan UI Components merupakan lapisan presentasi yang bertugas menampilkan data kepada pengguna dan menangani interaksi pengguna dengan sistem. Komponen pada lapisan ini menerima data yang telah dikelola oleh Client Data Layer dan menyajikannya dalam bentuk visualisasi seperti grafik dan tabel. Pemisahan peran ini memastikan bahwa komponen antarmuka hanya berfokus pada aspek tampilan dan interaksi, tanpa menangani logika pengelolaan data.
+
+\subsection{Perancangan Client Data Layer}
+
+Perancangan Client Data Layer dilakukan untuk mengelola data yang bersumber dari backend secara terpusat pada sisi frontend sebelum disajikan pada komponen antarmuka pengguna. Pada aplikasi dashboard yang bersifat data-driven, data yang sama dapat digunakan oleh berbagai komponen secara bersamaan dan diperbarui secara dinamis. Oleh karena itu, diperlukan suatu lapisan pengelolaan data yang mampu mengatur alur data, menjaga konsistensi informasi, serta mengendalikan interaksi antara frontend dan REST API.
+
+Client Data Layer diposisikan sebagai lapisan perantara antara REST API dan komponen antarmuka pengguna, sebagaimana ditunjukkan pada Gambar \ref{fig:frontend-architecture} diagram arsitektur frontend. Seluruh data yang diperoleh dari backend tidak langsung digunakan oleh komponen antarmuka, melainkan terlebih dahulu dikelola melalui Client Data Layer. Dengan pendekatan ini, komponen antarmuka tidak perlu mengetahui detail proses pengambilan data dari API, sehingga fokus komponen dapat diarahkan pada penyajian data dan interaksi pengguna.
+
+Secara konseptual, Client Data Layer memiliki beberapa tanggung jawab utama dalam sistem frontend. Tanggung jawab tersebut meliputi proses pengambilan data dari REST API, pengelolaan server state, penyimpanan sementara data melalui mekanisme caching, serta sinkronisasi data antar-komponen antarmuka. Dengan pengelolaan data yang terpusat, permintaan data yang bersifat berulang dapat dikendalikan dan setiap komponen antarmuka memperoleh data yang konsisten sesuai dengan kondisi sistem.
+
+Selain pengelolaan alur data, Client Data Layer juga dirancang untuk menangani pemodelan data sebelum digunakan oleh komponen antarmuka. Data yang diperoleh dari REST API dimodelkan secara terstruktur pada Client Data Layer agar memiliki bentuk dan konsistensi yang jelas. Pendekatan ini bertujuan untuk meminimalkan ketergantungan komponen antarmuka terhadap struktur data mentah dari backend serta mempermudah proses pengembangan dan pemeliharaan sistem frontend.
+
+Dalam penelitian ini, Client Data Layer dirancang untuk diimplementasikan menggunakan TanStack Query sebagai pustaka pengelolaan server state pada frontend. Pemilihan TanStack Query didasarkan pada kemampuannya dalam menyediakan mekanisme pengelolaan data asinkron secara terpusat, termasuk caching, sinkronisasi data, dan pengendalian permintaan data. Dengan memanfaatkan pustaka tersebut, Client Data Layer diharapkan mampu mendukung pengelolaan data frontend yang lebih terstruktur, konsisten, dan efisien sesuai dengan kebutuhan dashboard analisis sentimen.
+
+\subsection{Perancangan Penggunaan TanStack Query}
+
+Perancangan penggunaan TanStack Query pada penelitian ini mengacu pada dokumentasi resmi TanStack Query sebagai pustaka server state management untuk aplikasi frontend. Berdasarkan dokumentasi resmi TanStack Query \citep{TanstackLCC2025}, pustaka ini dirancang untuk mengelola data asinkron yang bersumber dari API secara terpusat melalui mekanisme pengambilan data, penyimpanan sementara (caching), serta sinkronisasi data antar-komponen antarmuka. Pendekatan tersebut memungkinkan komponen frontend memperoleh data yang konsisten tanpa harus melakukan permintaan data secara langsung ke REST API, sehingga pemisahan tanggung jawab antara lapisan presentasi dan lapisan pengelolaan data dapat terjaga. Dengan karakteristik tersebut, TanStack Query dinilai sesuai untuk diimplementasikan sebagai Client Data Layer pada aplikasi frontend yang bersifat data-driven, khususnya dalam konteks dashboard analisis sentimen yang membutuhkan konsistensi data dan pembaruan informasi secara terkontrol.
+
+\subsection{Perancangan Antarmuka}
+
+% wireframe landing page
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/landing-page.jpeg}
+  \caption{Wireframe Landing Page}
+  \label{fig:landing-page}
+\end{figure}
+
+% wireframe login
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/login.jpeg}
+  \caption{Wireframe Halaman Login}
+  \label{fig:login}
+\end{figure}
+
+
+% wireframe register
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/register.jpeg}
+  \caption{Wireframe Halaman Register}
+  \label{fig:register}
+\end{figure}
+
+% wireframe dashboard
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/dashboard.png}
+  \caption{Wireframe Halaman Dashboard}
+  \label{fig:dashboard}
+\end{figure}
+
+
+% wireframe sentiment
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/sentiment.png}
+  \caption{Wireframe Halaman Sentiment}
+  \label{fig:sentiment}
+\end{figure}
+
+
+% wireframe scraper
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/scraper.png}
+  \caption{Wireframe Halaman Scraper}
+  \label{fig:scraper}
+\end{figure}
+
+
+% wireframe recomendation
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=0.5\textwidth]{gambar/recomendation.png}
+  \caption{Wireframe Halaman Recomendation}
+  \label{fig:recomendation}
+\end{figure}
+
+
+\section{Metode Pengujian dan Evaluasi Sistem}
+
+\subsection{Metode Pengujian}
+
+\subsection{Skenario dan Objek Pengujian}
+
+\subsection{Teknik Evaluasi}
+
+Teknik evaluasi pada penelitian ini dilakukan untuk menilai kesesuaian perilaku sistem frontend terhadap rancangan arsitektur dan Client Data Layer yang telah ditetapkan. Evaluasi dilakukan dengan pendekatan kualitatif-deskriptif, yaitu melalui observasi terhadap perilaku sistem selama proses pengujian berlangsung tanpa melibatkan pengukuran numerik performa secara detail. Pendekatan ini dipilih karena fokus penelitian diarahkan pada perilaku pengelolaan data dan konsistensi tampilan sistem, bukan pada pengujian efisiensi algoritma atau kinerja backend.
+
+Sumber data evaluasi diperoleh dari hasil observasi terhadap tampilan dashboard serta perilaku pengelolaan data pada sisi frontend. Observasi dilakukan terhadap bagaimana data ditampilkan pada berbagai komponen antarmuka, bagaimana sistem merespons pembaruan data, serta bagaimana konsistensi data terjaga ketika komponen yang berbeda menggunakan sumber data yang sama. Selain itu, evaluasi juga dilakukan dengan mengamati log permintaan data untuk memastikan bahwa mekanisme pengelolaan data berjalan sesuai dengan rancangan.
+
+Sebagai alat bantu evaluasi, penelitian ini memanfaatkan fitur observasi yang disediakan oleh TanStack Query Devtools. Alat bantu ini digunakan untuk memantau status pengambilan data, mekanisme penyimpanan sementara (caching), serta proses sinkronisasi data antar-komponen selama skenario pengujian dijalankan. Penggunaan alat bantu ini bertujuan untuk mendukung proses observasi perilaku sistem secara lebih terstruktur, tanpa bergantung pada detail implementasi kode program.
+
+Indikator evaluasi dalam penelitian ini meliputi beberapa aspek utama, yaitu konsistensi data antar-komponen antarmuka, perilaku mekanisme caching dalam mengendalikan permintaan data berulang, serta kemampuan sistem dalam menyinkronkan pembaruan data sesuai dengan kondisi yang terjadi pada sisi backend. Selain itu, evaluasi juga dilakukan untuk memastikan bahwa perilaku sistem frontend telah sesuai dengan perancangan Client Data Layer dan arsitektur frontend yang direncanakan pada tahap perancangan sistem.
+
+Sistem frontend dinilai berhasil apabila seluruh indikator evaluasi tersebut terpenuhi dan tidak ditemukan ketidaksesuaian perilaku sistem selama skenario pengujian dijalankan.
+
+
+
+
+
+
 

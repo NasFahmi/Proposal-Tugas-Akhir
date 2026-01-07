@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  7 JAN 2026 01:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  7 JAN 2026 22:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,7 +878,7 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 \openout2 = `untouch/xx-sampul-proposal.aux'.
 
 (untouch/xx-sampul-proposal.tex
-<gambar/logo-poliwangi.png, id=141, 72.27pt x 72.27pt>
+<gambar/logo-poliwangi.png, id=193, 72.27pt x 72.27pt>
 File: gambar/logo-poliwangi.png Graphic file (type png)
 <use gambar/logo-poliwangi.png>
 Package pdftex.def Info: gambar/logo-poliwangi.png  used on input line 18.
@@ -936,28 +936,28 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 ]
 \openout2 = `untouch/xx-daftar.aux'.
 
- (untouch/xx-daftar.tex (proposal.toc)
+ (untouch/xx-daftar.tex (proposal.toc [5
+
+
+
+
+])
 \tf@toc=\write5
 \openout5 = `proposal.toc'.
 
- (a6-daftarsingkatan.tex [5
-
-
-
-
-]) [6
+ (a6-daftarsingkatan.tex [6]) [7
 
 ] (proposal.lof)
 \tf@lof=\write6
 \openout6 = `proposal.lof'.
 
- [7
+ [8
 
 ] (proposal.lot)
 \tf@lot=\write7
 \openout7 = `proposal.lot'.
 
-) [8
+) [9
 
 ]
 \openout2 = `b1-bab1.aux'.
@@ -985,7 +985,7 @@ Bab 2.
 
 
 ] [6] [7] [8]
-<gambar/client-data-layer-paradigm.png, id=305, 3332.45pt x 3097.5725pt>
+<gambar/client-data-layer-paradigm.png, id=392, 3332.45pt x 3097.5725pt>
 File: gambar/client-data-layer-paradigm.png Graphic file (type png)
 <use gambar/client-data-layer-paradigm.png>
 Package pdftex.def Info: gambar/client-data-layer-paradigm.png  used on input line 65.
@@ -1002,41 +1002,97 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <5> not available
 
  (b3-bab3.tex
 Bab 3.
-) [17
+<gambar/fountain-sdlc.jpg, id=443, 1024.82875pt x 2569.6pt>
+File: gambar/fountain-sdlc.jpg Graphic file (type jpg)
+<use gambar/fountain-sdlc.jpg>
+Package pdftex.def Info: gambar/fountain-sdlc.jpg  used on input line 66.
+(pdftex.def)             Requested size: 136.57462pt x 342.41122pt.
+[17
 
 
 
 
-] (untouch/xx-daftarpustaka.tex (proposal.bbl))
+] [18 <./gambar/fountain-sdlc.jpg>] [19] [20] [21]
+<gambar/diagram-architecture.png, id=479, 706.64pt x 967.615pt>
+File: gambar/diagram-architecture.png Graphic file (type png)
+<use gambar/diagram-architecture.png>
+Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 148.
+(pdftex.def)             Requested size: 227.62206pt x 311.68065pt.
+ [22 <./gambar/diagram-architecture.png>] [23]
+<gambar/landing-page.jpeg, id=493, 2055.68pt x 2055.68pt>
+File: gambar/landing-page.jpeg Graphic file (type jpg)
+<use gambar/landing-page.jpeg>
+Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 182.
+(pdftex.def)             Requested size: 227.62206pt x 227.59975pt.
+ [24]
+<gambar/login.jpeg, id=498, 3035.34pt x 1300.86pt>
+File: gambar/login.jpeg Graphic file (type jpg)
+<use gambar/login.jpeg>
+Package pdftex.def Info: gambar/login.jpeg  used on input line 190.
+(pdftex.def)             Requested size: 227.62206pt x 97.54044pt.
+<gambar/register.jpeg, id=499, 3035.34pt x 1300.86pt>
+File: gambar/register.jpeg Graphic file (type jpg)
+<use gambar/register.jpeg>
+Package pdftex.def Info: gambar/register.jpeg  used on input line 199.
+(pdftex.def)             Requested size: 227.62206pt x 97.54044pt.
+<gambar/dashboard.png, id=500, 2344.76pt x 1830.84pt>
+File: gambar/dashboard.png Graphic file (type png)
+<use gambar/dashboard.png>
+Package pdftex.def Info: gambar/dashboard.png  used on input line 207.
+(pdftex.def)             Requested size: 227.62206pt x 177.73094pt.
+ [25 <./gambar/landing-page.jpeg> <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=505, 2344.76pt x 3495.0575pt>
+File: gambar/sentiment.png Graphic file (type png)
+<use gambar/sentiment.png>
+Package pdftex.def Info: gambar/sentiment.png  used on input line 216.
+(pdftex.def)             Requested size: 227.62206pt x 339.28682pt.
+<gambar/scraper.png, id=506, 2248.4pt x 1040.88875pt>
+File: gambar/scraper.png Graphic file (type png)
+<use gambar/scraper.png>
+Package pdftex.def Info: gambar/scraper.png  used on input line 225.
+(pdftex.def)             Requested size: 227.62206pt x 105.36559pt.
+ [26 <./gambar/dashboard.png> <./gambar/sentiment.png>]
+<gambar/recomendation.png, id=513, 2248.4pt x 1927.2pt>
+File: gambar/recomendation.png Graphic file (type png)
+<use gambar/recomendation.png>
+Package pdftex.def Info: gambar/recomendation.png  used on input line 234.
+(pdftex.def)             Requested size: 227.62206pt x 195.08382pt.
+ [27 <./gambar/scraper.png> <./gambar/recomendation.png>]) [28] (untouch/xx-daftarpustaka.tex (proposal.bbl))
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 156.
 See the caption package documentation for explanation.
 
-[18
+[29
 
 
 
 
-] (proposal.aux (untouch/xx-sampul-proposal.aux) (untouch/xx-sampuldalam-proposal.aux) (untouch/xx-persetujuan-proposal.aux) (a2-abstrak.aux) (a3-abstract.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux))
+] (proposal.aux (untouch/xx-sampul-proposal.aux) (untouch/xx-sampuldalam-proposal.aux) (untouch/xx-persetujuan-proposal.aux)
+No file a2-abstrak.aux.
+No file a3-abstract.aux.
+(untouch/xx-daftar.aux)
+No file b1-bab1.aux.
+No file b2-bab2.aux.
+(b3-bab3.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `proposal.out' has not changed.
-(rerunfilecheck)             Checksum: 6BBFE0B49E7C8F89536A4A1EECA3057D;5030.
+(rerunfilecheck)             Checksum: 07EC1C92F93107813B5135F160FD8442;7556.
  ) 
 Here is how much of TeX's memory you used:
- 39558 strings out of 467871
- 894603 string characters out of 5428444
- 1405077 words of memory out of 5000000
- 67652 multiletter control sequences out of 15000+600000
+ 39694 strings out of 467871
+ 897335 string characters out of 5428444
+ 1408078 words of memory out of 5000000
+ 67752 multiletter control sequences out of 15000+600000
  662419 words of font info for 99 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 93i,12n,97p,977b,835s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 93i,12n,97p,1093b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (27 pages, 599260 bytes).
+Output written on proposal.pdf (39 pages, 21787227 bytes).
 PDF statistics:
- 402 PDF objects out of 1000 (max. 8388607)
- 95 named destinations out of 1000 (max. 500000)
- 295 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 139 named destinations out of 1000 (max. 500000)
+ 444 words of extra memory for PDF output out of 10000 (max. 10000000)
 
