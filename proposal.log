@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  7 JAN 2026 22:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.7)  7 JAN 2026 23:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1023,57 +1023,53 @@ Package pdftex.def Info: gambar/diagram-architecture.png  used on input line 148
 File: gambar/landing-page.jpeg Graphic file (type jpg)
 <use gambar/landing-page.jpeg>
 Package pdftex.def Info: gambar/landing-page.jpeg  used on input line 182.
-(pdftex.def)             Requested size: 227.62206pt x 227.59975pt.
+(pdftex.def)             Requested size: 318.66948pt x 318.65848pt.
  [24]
-<gambar/login.jpeg, id=498, 3035.34pt x 1300.86pt>
+<gambar/login.jpeg, id=499, 3035.34pt x 1300.86pt>
 File: gambar/login.jpeg Graphic file (type jpg)
 <use gambar/login.jpeg>
-Package pdftex.def Info: gambar/login.jpeg  used on input line 190.
-(pdftex.def)             Requested size: 227.62206pt x 97.54044pt.
-<gambar/register.jpeg, id=499, 3035.34pt x 1300.86pt>
+Package pdftex.def Info: gambar/login.jpeg  used on input line 192.
+(pdftex.def)             Requested size: 364.19667pt x 156.07661pt.
+ [25 <./gambar/landing-page.jpeg>]
+<gambar/register.jpeg, id=505, 3035.34pt x 1300.86pt>
 File: gambar/register.jpeg Graphic file (type jpg)
 <use gambar/register.jpeg>
-Package pdftex.def Info: gambar/register.jpeg  used on input line 199.
-(pdftex.def)             Requested size: 227.62206pt x 97.54044pt.
-<gambar/dashboard.png, id=500, 2344.76pt x 1830.84pt>
+Package pdftex.def Info: gambar/register.jpeg  used on input line 202.
+(pdftex.def)             Requested size: 364.19667pt x 156.07661pt.
+<gambar/dashboard.png, id=507, 2344.76pt x 1830.84pt>
 File: gambar/dashboard.png Graphic file (type png)
 <use gambar/dashboard.png>
-Package pdftex.def Info: gambar/dashboard.png  used on input line 207.
-(pdftex.def)             Requested size: 227.62206pt x 177.73094pt.
- [25 <./gambar/landing-page.jpeg> <./gambar/login.jpeg> <./gambar/register.jpeg>]
-<gambar/sentiment.png, id=505, 2344.76pt x 3495.0575pt>
+Package pdftex.def Info: gambar/dashboard.png  used on input line 212.
+(pdftex.def)             Requested size: 273.14923pt x 213.26596pt.
+ [26 <./gambar/login.jpeg> <./gambar/register.jpeg>]
+<gambar/sentiment.png, id=513, 2344.76pt x 3495.0575pt>
 File: gambar/sentiment.png Graphic file (type png)
 <use gambar/sentiment.png>
-Package pdftex.def Info: gambar/sentiment.png  used on input line 216.
-(pdftex.def)             Requested size: 227.62206pt x 339.28682pt.
-<gambar/scraper.png, id=506, 2248.4pt x 1040.88875pt>
+Package pdftex.def Info: gambar/sentiment.png  used on input line 222.
+(pdftex.def)             Requested size: 273.14923pt x 407.12286pt.
+ [27 <./gambar/dashboard.png>]
+<gambar/scraper.png, id=521, 2248.4pt x 1040.88875pt>
 File: gambar/scraper.png Graphic file (type png)
 <use gambar/scraper.png>
-Package pdftex.def Info: gambar/scraper.png  used on input line 225.
-(pdftex.def)             Requested size: 227.62206pt x 105.36559pt.
- [26 <./gambar/dashboard.png> <./gambar/sentiment.png>]
-<gambar/recomendation.png, id=513, 2248.4pt x 1927.2pt>
+Package pdftex.def Info: gambar/scraper.png  used on input line 232.
+(pdftex.def)             Requested size: 273.14923pt x 126.44188pt.
+ [28 <./gambar/sentiment.png>]
+<gambar/recomendation.png, id=528, 2248.4pt x 1927.2pt>
 File: gambar/recomendation.png Graphic file (type png)
 <use gambar/recomendation.png>
-Package pdftex.def Info: gambar/recomendation.png  used on input line 234.
-(pdftex.def)             Requested size: 227.62206pt x 195.08382pt.
- [27 <./gambar/scraper.png> <./gambar/recomendation.png>]) [28] (untouch/xx-daftarpustaka.tex (proposal.bbl))
+Package pdftex.def Info: gambar/recomendation.png  used on input line 242.
+(pdftex.def)             Requested size: 273.14923pt x 234.10648pt.
+ [29 <./gambar/scraper.png> <./gambar/recomendation.png>]) [30] (untouch/xx-daftarpustaka.tex (proposal.bbl))
 
 Package caption Warning: Unused \captionsetup[lstlisting] on input line 156.
 See the caption package documentation for explanation.
 
-[29
+[31
 
 
 
 
-] (proposal.aux (untouch/xx-sampul-proposal.aux) (untouch/xx-sampuldalam-proposal.aux) (untouch/xx-persetujuan-proposal.aux)
-No file a2-abstrak.aux.
-No file a3-abstract.aux.
-(untouch/xx-daftar.aux)
-No file b1-bab1.aux.
-No file b2-bab2.aux.
-(b3-bab3.aux))
+] (proposal.aux (untouch/xx-sampul-proposal.aux) (untouch/xx-sampuldalam-proposal.aux) (untouch/xx-persetujuan-proposal.aux) (a2-abstrak.aux) (a3-abstract.aux) (untouch/xx-daftar.aux) (b1-bab1.aux) (b2-bab2.aux) (b3-bab3.aux))
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
@@ -1082,17 +1078,17 @@ Package rerunfilecheck Info: File `proposal.out' has not changed.
 (rerunfilecheck)             Checksum: 07EC1C92F93107813B5135F160FD8442;7556.
  ) 
 Here is how much of TeX's memory you used:
- 39694 strings out of 467871
- 897335 string characters out of 5428444
+ 39704 strings out of 467871
+ 897635 string characters out of 5428444
  1408078 words of memory out of 5000000
  67752 multiletter control sequences out of 15000+600000
  662419 words of font info for 99 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  93i,12n,97p,1093b,972s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on proposal.pdf (39 pages, 21787227 bytes).
+Output written on proposal.pdf (41 pages, 5573625 bytes).
 PDF statistics:
- 578 PDF objects out of 1000 (max. 8388607)
- 139 named destinations out of 1000 (max. 500000)
+ 593 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
  444 words of extra memory for PDF output out of 10000 (max. 10000000)
 

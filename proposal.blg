@@ -1,0 +1,66 @@
+This is BibTeX, Version 0.99e
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 7 items.
+The style file: newapa.bst
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: untouch/xx-sampul-proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: untouch/xx-sampuldalam-proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 36 items.
+A level-1 auxiliary file: untouch/xx-persetujuan-proposal.aux
+Reallocating 'name_of_file' (item size: 1) to 15 items.
+A level-1 auxiliary file: a2-abstrak.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+A level-1 auxiliary file: a3-abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+A level-1 auxiliary file: untouch/xx-daftar.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: b1-bab1.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: b2-bab2.aux
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+A level-1 auxiliary file: b3-bab3.aux
+Reallocating 'name_of_file' (item size: 1) to 11 items.
+Database file #1: a7-pustaka.bib
+You've used 15 entries,
+            2708 wiz_defined-function locations,
+            695 strings with 7645 characters,
+and the built_in function-call counts, 6800 in all, are:
+= -- 610
+> -- 339
+< -- 9
++ -- 126
+- -- 126
+* -- 680
+:= -- 1339
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 132
+chr.to.int$ -- 15
+cite$ -- 15
+duplicate$ -- 224
+empty$ -- 409
+format.name$ -- 147
+if$ -- 1198
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 12
+newline$ -- 77
+num.names$ -- 60
+pop$ -- 82
+preamble$ -- 1
+purify$ -- 147
+quote$ -- 0
+skip$ -- 160
+stack$ -- 0
+substring$ -- 433
+swap$ -- 53
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 90
+warning$ -- 0
+while$ -- 64
+width$ -- 0
+write$ -- 192
