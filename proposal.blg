@@ -23,44 +23,47 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: b3-bab3.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: a7-pustaka.bib
-You've used 15 entries,
+You can't pop an empty literal stack for entry TrendsWebDevReact2025
+while executing---line 1459 of file newapa.bst
+You've used 18 entries,
             2708 wiz_defined-function locations,
-            695 strings with 7645 characters,
-and the built_in function-call counts, 6800 in all, are:
-= -- 610
-> -- 339
-< -- 9
-+ -- 126
-- -- 126
-* -- 680
-:= -- 1339
-add.period$ -- 44
-call.type$ -- 15
-change.case$ -- 132
-chr.to.int$ -- 15
-cite$ -- 15
-duplicate$ -- 224
-empty$ -- 409
-format.name$ -- 147
-if$ -- 1198
+            714 strings with 8360 characters,
+and the built_in function-call counts, 8123 in all, are:
+= -- 730
+> -- 411
+< -- 10
++ -- 153
+- -- 153
+* -- 806
+:= -- 1608
+add.period$ -- 55
+call.type$ -- 18
+change.case$ -- 159
+chr.to.int$ -- 18
+cite$ -- 18
+duplicate$ -- 266
+empty$ -- 481
+format.name$ -- 177
+if$ -- 1427
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 12
-newline$ -- 77
-num.names$ -- 60
-pop$ -- 82
+missing$ -- 14
+newline$ -- 94
+num.names$ -- 72
+pop$ -- 98
 preamble$ -- 1
-purify$ -- 147
+purify$ -- 177
 quote$ -- 0
-skip$ -- 160
+skip$ -- 193
 stack$ -- 0
-substring$ -- 433
-swap$ -- 53
+substring$ -- 503
+swap$ -- 63
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 90
+type$ -- 108
 warning$ -- 0
-while$ -- 64
+while$ -- 75
 width$ -- 0
-write$ -- 192
+write$ -- 234
+(There was 1 error message)

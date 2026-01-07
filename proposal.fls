@@ -640,6 +640,10 @@ INPUT untouch\xx-daftarpustaka.tex
 INPUT .\proposal.bbl
 INPUT .\proposal.bbl
 INPUT proposal.bbl
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr7tn.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\public\pslatex\pcrr7tn.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\symbol\psyr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\pslatex\pcrr8rn.tfm
 INPUT proposal.aux
 INPUT .\untouch\xx-sampul-proposal.aux
 INPUT .\untouch\xx-sampul-proposal.aux
@@ -670,6 +674,8 @@ INPUT .\b3-bab3.aux
 INPUT b3-bab3.aux
 INPUT .\proposal.out
 INPUT .\proposal.out
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb

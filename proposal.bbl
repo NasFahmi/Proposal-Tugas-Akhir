@@ -60,11 +60,26 @@ Mardhatilah, D., Omar, A., \& Septiari, E.~D. (2024).
 \newblock {\em JOURNAL OF BUSINESS MANAGEMENT AND ACCOUNTING}, {\em 14\/}(1),
   1--35.
 
+\bibitem[\protect\citeauthoryear{Maulida, Zahro, Hakim \& Akbar}{Maulida
+  et~al.}{2025}]{Maulida2025}
+Maulida, M., Zahro, F., Hakim, R., \& Akbar, M.~S. (2025).
+\newblock {PT. Media Akademik Publisher PENGUJIAN BLACK BOX TESTING PADA SISTEM
+  WEBSITE PEMESANAN ONLINE TOKO AYAM KRISPY}.
+\newblock {\em Jurnal Media Akademik (Jma)}, {\em 3\/}(5), 3031--5220.
+
 \bibitem[\protect\citeauthoryear{Micheal}{Micheal}{2025}]{Micheal2025}
 Micheal, D. (2025).
 \newblock {React Query and Lazy Loading: Performance Optimization Best
   Practices}.
 \newblock Preprint, ResearchGate.
+
+\bibitem[\protect\citeauthoryear{Putra, Efendi, Tamam \& Pramadi}{Putra
+  et~al.}{2025}]{TrendsWebDevReact2025}
+Putra, F. P.~E., Efendi, R.~W., Tamam, A.~B., \& Pramadi, W.~A. (2025).
+\newblock Trends and best practices in api-based web development using laravel
+  and react.
+\newblock {\em Brilliance : Journal of Information and Software Engineering}.
+\newblock DOI: 10.47709/brilliance.v5i1.5971.
 
 \bibitem[\protect\citeauthoryear{Rahman \& Prihanto}{Rahman \&
   Prihanto}{2024}]{Rahman2024}
@@ -81,6 +96,12 @@ Rathore, S., Nawkhare, R., Sharma, N., Chaudhary, N., Chakole, S., \&
 \newblock Effective data visualization techniques for business decision-makers.
 \newblock {\em International Research Journal on Advanced Engineering and
   Management (IRJAEM)}, {\em 3}, 2029--2036.
+
+\bibitem[\protect\citeauthoryear{{React}}{{React}}{2026}]{ReactOfficial}
+{React} (2026).
+\newblock React – a javascript library for building user interfaces.
+\newblock \url{https://react.dev/}.
+\newblock Diakses pada 07 Jan 2026.
 
 \bibitem[\protect\citeauthoryear{Sastra \& Sutawinata}{Sastra \&
   Sutawinata}{2023}]{Sastra2023}
