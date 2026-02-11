@@ -10,6 +10,12 @@
 
 % Pengaturan jarak antar baris dan penyesuaian kotak teks agar rata kiri
 \usepackage{setspace}
+
+\singlespacing      % spasi 1.0
+\onehalfspacing     % spasi 1.5
+\doublespacing      % spasi 2.0
+
+
 \usepackage[raggedrightboxes]{ragged2e}
 
 % Paket untuk memasukkan gambar dalam dokumen
@@ -20,6 +26,7 @@
 % Mengatur indentasi paragraf
 \usepackage{indentfirst}  % Memastikan paragraf pertama di setiap section memiliki indentasi
 \setlength\parindent{1.25cm} % Mengatur jarak indentasi paragraf menjadi 1.25 cm
+\setlength{\parskip}{0pt} % Menghilangkan jarak ekstra antar paragraf
 
 % Mengatur font utama dokumen menjadi Times New Roman
 \usepackage{pslatex}
@@ -30,13 +37,16 @@
 
 % Pengaturan daftar isi, daftar gambar, dan daftar tabel
 \usepackage{tocloft}
+\renewcommand{\cftdotsep}{1}
+
 \cftsetpnumwidth{1.5em}
 \cftsetrmarg{2em}
-\setlength{\cftsecnumwidth}{2.3em} %awal 1.5em
-\setlength{\cftsubsecnumwidth}{3.2em} %awal 1.5em
+\setlength{\cftsecnumwidth}{2em} %awal 1.5em
+\setlength{\cftsubsecnumwidth}{3em} %awal 1.5em
 \renewcommand{\cftchapdotsep}{\cftdotsep}
-\setlength{\cftbeforechapskip}{3pt}
-
+\setlength{\cftbeforechapskip}{5pt}
+\setlength{\cftbeforesecskip}{5pt}
+\setlength{\cftbeforesubsecskip}{5pt}
 
 % Penyesuaian judul bab dalam daftar isi agar ditampilkan sebagai "BAB"
 \renewcommand\cftchappresnum{BAB }
@@ -44,6 +54,23 @@
 \newlength\mylen
 \settowidth\mylen{\bfseries BAB 1 :\ } % Menyesuaikan lebar penomoran bab
 \cftsetindents{chap}{0pt}{\mylen}
+
+% Penyesuaian indent daftar gambar & tabel
+% Prefix daftar gambar & tabel
+\renewcommand{\cftfigpresnum}{\bfseries Gambar }
+\renewcommand{\cftfigaftersnum}{\normalfont\hspace{0.5em}}
+
+\renewcommand{\cfttabpresnum}{\bfseries Tabel }
+\renewcommand{\cfttabaftersnum}{\normalfont\hspace{0.5em}}
+
+%% Lebar nomor yang proporsional
+\newlength{\myfiglen}
+\settowidth{\myfiglen}{\bfseries Gambar 9.99 }
+\cftsetindents{fig}{0pt}{\myfiglen}
+
+\newlength{\mytablen}
+\settowidth{\mytablen}{\bfseries Tabel 9.99 }
+\cftsetindents{tab}{0pt}{\mytablen}
 
 % Pengaturan format dan penomoran judul bab
 \usepackage{titlesec}
@@ -55,36 +82,45 @@
 \titlespacing*{\chapter}{0pt}{-1cm}{20pt}
 \titlespacing*{\section}{0pt}{10pt}{0cm}
 \titlespacing*{\subsection}{0pt}{10pt}{0cm}
+\titleformat{\subsubsection}{\fontsize{12}{14}\bfseries}{\thesubsubsection}{0.675cm}{}
+\titlespacing*{\subsubsection}{0pt}{10pt}{0cm}
 
 % Pengaturan untuk caption gambar dan tabel
-\usepackage[font=small, format=plain, labelfont=bf, up, textfont=up]{caption}
+\usepackage[format=plain, labelfont=bf, up, textfont=up]{caption}
 \usepackage{subcaption}
 
 % Menghapus tanda titik dua pada caption
 \captionsetup[figure]{labelsep=space}
-\captionsetup[table]{labelsep=space}
+\captionsetup[table]{labelsep=space,justification=raggedright,singlelinecheck=false}
+
+% Mengatur jarak antara gambar dan teks
+\setlength{\textfloatsep}{10pt}  % Jarak antara gambar dan teks di atas/bawah
+\setlength{\floatsep}{10pt}      % Jarak antar gambar
+\setlength{\intextsep}{10pt}     % Jarak untuk gambar di tengah teks
 
 % Mengatur nomor caption gambar dan tabel sesuai bab
 \renewcommand{\thefigure}{\arabic{chapter}.\arabic{figure}}
 \renewcommand{\thetable}{\arabic{chapter}.\arabic{table}}
 
 % Mengatur hyphenation (pemisahan kata) agar lebih rapi
-\tolerance=1
-\emergencystretch=\maxdimen
-\hyphenpenalty=10000
-\hbadness=10000
+\tolerance=500
+\emergencystretch=1em
+\hyphenpenalty=50
+\hbadness=5000
 
 % Pengaturan tabel, multirow, dan ukuran kolom otomatis
 \usepackage{tabularx}
 \usepackage{multirow}
 \usepackage{colortbl} % Untuk mewarnai sel tabel
+\usepackage{array}
+\usepackage{ragged2e}
 
 % Pengaturan margin halaman
 \usepackage{geometry}
 \geometry{
-    left=3cm,          % Margin kiri
+    inner=3cm,         % Margin dalam (binding)
+    outer=2cm,         % Margin luar
     top=2cm,           % Margin atas
-    right=2cm,         % Margin kanan
     bottom=2cm,        % Margin bawah
 }
 
@@ -121,16 +157,20 @@
 
 % Paket untuk bibliografi menggunakan BibTeX
 \usepackage[sort]{natbib}
-\bibliographystyle{newapa} % Ganti dengan apalike jika menggunakan Overleaf
+\bibliographystyle{apalike} % Ganti dengan apalike jika menggunakan Overleaf
 
 % Paket untuk tabel yang panjang dan melampaui satu halaman
 \usepackage{longtable}
+\usepackage{placeins}
 
 % Paket untuk memasukkan hyperlink dalam dokumen
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
 
 % Pengaturan label otomatis untuk berbagai elemen (gambar, tabel, persamaan)
 \usepackage{cleveref}
+\usepackage{fancybox}
+\usepackage{tcolorbox}
+
 \crefname{figure}{gambar}{gambar}
 \Crefname{figure}{Gambar}{Gambar}
 \crefname{table}{tabel}{tabel}
@@ -148,37 +188,37 @@
 \AtBeginDocument{\renewcommand{\thelstlisting}{\arabic{chapter}.\arabic{lstlisting}}}
 
 \captionsetup[lstlisting]{
-    format=plain,
-    labelfont=bf,
-    justification=centering,
-    singlelinecheck=false,
-    labelsep=space
+  format=plain,
+  labelfont=bf,
+  justification=centering,
+  singlelinecheck=false,
+  labelsep=space
 }
 
 % Paket untuk menampilkan kode program
 \usepackage{listings}
-\usepackage{xcolor}
+\usepackage[table]{xcolor}
 \definecolor{codegreen}{rgb}{0,0.6,0}
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}
 \lstdefinestyle{mystyle}{
-    backgroundcolor=\color{backcolour},
+    backgroundcolor=\color{backcolour},   
     commentstyle=\color{codegreen},
     keywordstyle=\color{magenta},
     numberstyle=\tiny\color{codegray},
     stringstyle=\color{codepurple},
     basicstyle=\ttfamily\footnotesize,
     columns=fullflexible,
-    breakatwhitespace=false,
-    breaklines=true,
-    captionpos=b,
-    keepspaces=true,
-    numbers=left,
-    numbersep=5pt,
-    showspaces=false,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
     showstringspaces=false,
-    showtabs=false,
+    showtabs=false,                  
     tabsize=2,
     lineskip=-1pt
 }
@@ -197,6 +237,67 @@
 
 %untuk if-then
 \usepackage{ifthen}
-%% DILARANG EDIT BAGIAN INI
 
-%================================================
+\makeatletter
+% Halaman kosong dengan nomor halaman (plain)
+\newcommand{\halamankosong}{%
+  \clearpage
+  \ifodd\c@page
+  \else
+    \thispagestyle{plain}
+    \null
+    \vfill
+    \begin{center}
+      \textit{-- Halaman ini sengaja dikosongkan --}
+    \end{center}
+    \vfill
+    \clearpage
+  \fi
+}
+
+% Halaman kosong TANPA nomor halaman (empty)
+\newcommand{\halamankosongempty}{%
+  \clearpage
+  \ifodd\c@page
+  \else
+    \thispagestyle{empty}
+    \null
+    \vfill
+    \begin{center}
+      \textit{-- Halaman ini sengaja dikosongkan --}
+    \end{center}
+    \vfill
+    \clearpage
+  \fi
+}
+\makeatother
+
+% =====================================================
+% Hilangkan jarak antar bab pada Daftar Gambar & Tabel
+% =====================================================
+\setlength{\cftbeforechapskip}{5pt}
+\setlength{\cftbeforefigskip}{5pt}
+\setlength{\cftbeforetabskip}{5pt}
+
+\makeatletter
+\renewcommand{\addvspace}[1]{}
+\makeatother
+
+
+% Pengaturan jarak antar baris dan penyesuaian kotak teks agar rata kiri
+\usepackage{setspace}
+\usepackage[none]{hyphenat}
+\usepackage{ragged2e}
+\usepackage{microtype}
+
+% Atur paragraf untuk justify tanpa hyphenation
+\setlength{\RaggedRightRightskip}{\fill}
+\setlength{\RaggedRightParfillskip}{\fill}
+
+% Mengatur hyphenation (pemisahan kata) agar lebih rapi
+\tolerance=9999
+\emergencystretch=1em
+\hyphenpenalty=9999
+\hbadness=9999
+\lefthyphenmin=62
+\righthyphenmin=62

@@ -1,8 +1,8 @@
 This is BibTeX, Version 0.99e
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: proposal.aux
-Reallocating 'name_of_file' (item size: 1) to 7 items.
-The style file: newapa.bst
+Reallocating 'name_of_file' (item size: 1) to 8 items.
+The style file: apalike.bst
 Reallocating 'name_of_file' (item size: 1) to 31 items.
 A level-1 auxiliary file: untouch/xx-sampul-proposal.aux
 Reallocating 'name_of_file' (item size: 1) to 36 items.
@@ -23,47 +23,44 @@ Reallocating 'name_of_file' (item size: 1) to 12 items.
 A level-1 auxiliary file: b3-bab3.aux
 Reallocating 'name_of_file' (item size: 1) to 11 items.
 Database file #1: a7-pustaka.bib
-You can't pop an empty literal stack for entry TrendsWebDevReact2025
-while executing---line 1459 of file newapa.bst
-You've used 18 entries,
-            2708 wiz_defined-function locations,
-            714 strings with 8360 characters,
-and the built_in function-call counts, 8123 in all, are:
-= -- 730
-> -- 411
-< -- 10
-+ -- 153
-- -- 153
-* -- 806
-:= -- 1608
-add.period$ -- 55
-call.type$ -- 18
-change.case$ -- 159
-chr.to.int$ -- 18
-cite$ -- 18
-duplicate$ -- 266
-empty$ -- 481
-format.name$ -- 177
-if$ -- 1427
+You've used 24 entries,
+            1935 wiz_defined-function locations,
+            627 strings with 8110 characters,
+and the built_in function-call counts, 8703 in all, are:
+= -- 873
+> -- 331
+< -- 16
++ -- 108
+- -- 108
+* -- 737
+:= -- 1564
+add.period$ -- 73
+call.type$ -- 24
+change.case$ -- 174
+chr.to.int$ -- 24
+cite$ -- 24
+duplicate$ -- 316
+empty$ -- 595
+format.name$ -- 140
+if$ -- 1663
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 14
-newline$ -- 94
+missing$ -- 18
+newline$ -- 124
 num.names$ -- 72
-pop$ -- 98
+pop$ -- 113
 preamble$ -- 1
-purify$ -- 177
+purify$ -- 174
 quote$ -- 0
-skip$ -- 193
+skip$ -- 250
 stack$ -- 0
-substring$ -- 503
-swap$ -- 63
-text.length$ -- 0
+substring$ -- 625
+swap$ -- 23
+text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 108
+type$ -- 144
 warning$ -- 0
-while$ -- 75
+while$ -- 77
 width$ -- 0
-write$ -- 234
-(There was 1 error message)
+write$ -- 310

@@ -1,6 +1,6 @@
-PWD D:\Kuliah\RPL\Semester 7\Tugas Akhir\Proposal
+PWD D:\Kuliah\RPL\Semester_7\Tugas_Akhir\Proposal
 INPUT C:\Users\Fahmi\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT d:\Kuliah\RPL\Semester 7\Tugas Akhir\Proposal\proposal.tex
+INPUT d:\Kuliah\RPL\Semester_7\Tugas_Akhir\Proposal\proposal.tex
 OUTPUT proposal.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
@@ -114,6 +114,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\longtable.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\placeins\placeins.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\placeins\placeins.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
@@ -165,21 +167,10 @@ INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\uniquecounter\uniquecounter.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\cleveref\cleveref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\cleveref\cleveref.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
-INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
+INPUT C:\Program Files\MiKTeX\tex\latex\fancybox\fancybox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\fancybox\fancybox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tcolorbox\tcolorbox.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\frontendlayer\tikz.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgf\basiclayer\pgf.sty
@@ -212,6 +203,10 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsyssoftpath.code.te
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\systemlayer\pgfsysprotocol.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\xcolor\xcolor.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics-cfg\color.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\graphics\mathcolor.ltx
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcore.code.tex
@@ -276,6 +271,23 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\tools\verbatim.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\environ\environ.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\trimspaces\trimspaces.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstpatch.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\lstmisc.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\listings\listings.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pgfplots\pgfplots.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pgfplots\pgfplots.revision.tex
@@ -348,6 +360,16 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzl
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryarrows.code.tex
+INPUT C:\Program Files\MiKTeX\tex\latex\hyphenat\hyphenat.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\hyphenat\hyphenat.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype-pdftex.def
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\microtype.cfg
 INPUT .\a1-database.hyphenate.tex
 INPUT .\a1-database.hyphenate.tex
 INPUT a1-database.hyphenate.tex
@@ -392,6 +414,8 @@ INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -405,6 +429,9 @@ OUTPUT proposal.pdf
 INPUT .\proposal.out
 INPUT .\proposal.out
 OUTPUT proposal.out
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\mt-ptm.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\mt-ptm.cfg
+INPUT C:\Program Files\MiKTeX\tex\latex\microtype\mt-ptm.cfg
 INPUT .\untouch\xx-sampul-proposal.tex
 INPUT .\untouch\xx-sampul-proposal.tex
 OUTPUT untouch\xx-sampul-proposal.aux
@@ -412,7 +439,7 @@ INPUT .\untouch\xx-sampul-proposal.tex
 INPUT .\untouch\xx-sampul-proposal.tex
 INPUT untouch\xx-sampul-proposal.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
 INPUT .\gambar\logo-poliwangi.png
@@ -424,8 +451,8 @@ INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Users\Fahmi\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
@@ -492,14 +519,14 @@ INPUT untouch\xx-daftar.tex
 INPUT .\proposal.toc
 INPUT .\proposal.toc
 INPUT proposal.toc
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 OUTPUT proposal.toc
 INPUT .\a6-daftarsingkatan.tex
 INPUT .\a6-daftarsingkatan.tex
 INPUT .\a6-daftarsingkatan.tex
 INPUT .\a6-daftarsingkatan.tex
 INPUT a6-daftarsingkatan.tex
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT .\proposal.lof
 INPUT .\proposal.lof
 INPUT proposal.lof
@@ -525,6 +552,9 @@ OUTPUT b2-bab2.aux
 INPUT .\b2-bab2.tex
 INPUT .\b2-bab2.tex
 INPUT b2-bab2.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
 INPUT .\gambar\client-data-layer-paradigm.png
 INPUT .\gambar\client-data-layer-paradigm.png
 INPUT .\gambar\client-data-layer-paradigm.png
@@ -532,57 +562,53 @@ INPUT .\gambar\client-data-layer-paradigm.png
 INPUT .\gambar\client-data-layer-paradigm.png
 INPUT .\gambar\client-data-layer-paradigm.png
 INPUT .\gambar\client-data-layer-paradigm.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmr.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcmrm.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpzccmry.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zpsycmrv.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\fountain-sdlc.jpg
 INPUT .\b3-bab3.tex
 INPUT .\b3-bab3.tex
 OUTPUT b3-bab3.aux
 INPUT .\b3-bab3.tex
 INPUT .\b3-bab3.tex
 INPUT b3-bab3.tex
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
-INPUT .\gambar\fountain-sdlc.jpg
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\usecase-TA.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\erd.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
+INPUT .\gambar\diagram-sistem-keseluruhan.png
 INPUT .\gambar\diagram-architecture.png
 INPUT .\gambar\diagram-architecture.png
 INPUT .\gambar\diagram-architecture.png
 INPUT .\gambar\diagram-architecture.png
 INPUT .\gambar\diagram-architecture.png
 INPUT .\gambar\diagram-architecture.png
-INPUT .\gambar\diagram-architecture.png
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
+INPUT .\gambar\tanstack-works.jpg
 INPUT .\gambar\landing-page.jpeg
 INPUT .\gambar\landing-page.jpeg
 INPUT .\gambar\landing-page.jpeg
@@ -604,13 +630,13 @@ INPUT .\gambar\register.jpeg
 INPUT .\gambar\register.jpeg
 INPUT .\gambar\register.jpeg
 INPUT .\gambar\register.jpeg
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
-INPUT .\gambar\dashboard.png
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
+INPUT .\gambar\dashboard.jpeg
 INPUT .\gambar\sentiment.png
 INPUT .\gambar\sentiment.png
 INPUT .\gambar\sentiment.png
@@ -625,13 +651,20 @@ INPUT .\gambar\scraper.png
 INPUT .\gambar\scraper.png
 INPUT .\gambar\scraper.png
 INPUT .\gambar\scraper.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
-INPUT .\gambar\recomendation.png
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\recomendation.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
+INPUT .\gambar\chatbot.jpeg
 INPUT .\untouch\xx-daftarpustaka.tex
 INPUT .\untouch\xx-daftarpustaka.tex
 INPUT .\untouch\xx-daftarpustaka.tex
@@ -678,6 +711,8 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\courier\ucrr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmri8a.pfb

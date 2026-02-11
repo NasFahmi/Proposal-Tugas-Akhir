@@ -1,14 +1,19 @@
 \babel@toc {indonesian}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Architecture Client Data Layer}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Arsitektur \textit {Client Data Layer}}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Fountain SDLC Model}}{19}{figure.caption.9}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Fountain SDLC Model}}{19}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Diagram Arsitektur Frontend}}{23}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Wireframe Landing Page}}{26}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Wireframe Halaman Login}}{27}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Wireframe Halaman Register}}{27}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Wireframe Halaman Dashboard}}{28}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Wireframe Halaman Sentiment}}{29}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Wireframe Halaman Scraper}}{30}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Wireframe Halaman Recomendation}}{30}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram}}{29}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Entity Relationship Diagram}}{31}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Alur Sistem Keseluruhan}}{32}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Diagram Arsitektur \textit {Frontend}}}{34}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Cara Kerja TanStack Query}}{36}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Wireframe Landing Page}}{37}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Wireframe Halaman Login}}{38}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Wireframe Halaman Register}}{38}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Wireframe Halaman Dashboard}}{39}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Wireframe Halaman Sentiment}}{39}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Wireframe Halaman Scraper}}{40}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Wireframe Halaman Recomendation}}{40}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Wireframe Halaman Chatbot}}{41}{figure.caption.24}%
